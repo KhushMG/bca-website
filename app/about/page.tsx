@@ -83,7 +83,7 @@ export default function AboutPage() {
             <div className="flex justify-center">
               <div className="bg-white rounded-2xl p-8 shadow-md hover:shadow-xl transition-shadow border-2 border-purple/30 w-full max-w-sm">
                 {/* Headshot Placeholder */}
-                <div className="w-32 h-32 bg-gradient-to-br from-purple/10 to-light-purple/10 rounded-full mx-auto mb-6 flex items-center justify-center">
+                <div className="w-32 h-32 bg-linear-to-br from-purple/10 to-light-purple/10 rounded-full mx-auto mb-6 flex items-center justify-center">
                   <svg
                     className="w-16 h-16 text-purple/30"
                     fill="currentColor"
@@ -121,7 +121,7 @@ export default function AboutPage() {
                   className="bg-white rounded-2xl p-8 shadow-md hover:shadow-xl transition-shadow border border-gray-200 hover:border-purple"
                 >
                   {/* Headshot Placeholder */}
-                  <div className="w-24 h-24 bg-gradient-to-br from-purple/10 to-light-purple/10 rounded-full mx-auto mb-6 flex items-center justify-center">
+                  <div className="w-24 h-24 bg-linear-to-br from-purple/10 to-light-purple/10 rounded-full mx-auto mb-6 flex items-center justify-center">
                     <svg
                       className="w-12 h-12 text-purple/30"
                       fill="currentColor"
@@ -160,7 +160,7 @@ export default function AboutPage() {
                   className="bg-white rounded-2xl p-8 shadow-md hover:shadow-xl transition-shadow border border-gray-200 hover:border-purple"
                 >
                   {/* Headshot Placeholder */}
-                  <div className="w-24 h-24 bg-gradient-to-br from-purple/10 to-light-purple/10 rounded-full mx-auto mb-6 flex items-center justify-center">
+                  <div className="w-24 h-24 bg-linear-to-br from-purple/10 to-light-purple/10 rounded-full mx-auto mb-6 flex items-center justify-center">
                     <svg
                       className="w-12 h-12 text-purple/30"
                       fill="currentColor"
@@ -199,7 +199,7 @@ export default function AboutPage() {
                   className="bg-white rounded-2xl p-8 shadow-md hover:shadow-xl transition-shadow border border-gray-200 hover:border-purple"
                 >
                   {/* Headshot Placeholder */}
-                  <div className="w-24 h-24 bg-gradient-to-br from-purple/10 to-light-purple/10 rounded-full mx-auto mb-6 flex items-center justify-center">
+                  <div className="w-24 h-24 bg-linear-to-br from-purple/10 to-light-purple/10 rounded-full mx-auto mb-6 flex items-center justify-center">
                     <svg
                       className="w-12 h-12 text-purple/30"
                       fill="currentColor"
