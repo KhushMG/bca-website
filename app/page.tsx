@@ -3,7 +3,7 @@ import Image from "next/image"; // Uncomment when adding bothell.jpg
 
 export default function Home() {
   return (
-    <div className="pt-24">
+    <div className="pt-20">
       <section className="relative min-h-[90vh] flex items-center overflow-hidden">
         <div className="absolute inset-0">
           <Image
