@@ -98,17 +98,6 @@ export default function AboutPage() {
 
   return (
     <div className="pt-24">
-      {/* Hero Section */}
-      <section className="bg-light-purple py-24">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <h1 className="text-5xl md:text-6xl font-heading font-bold text-white mb-6 text-center">
-            About Us
-          </h1>
-          <p className="text-xl text-white/90 max-w-3xl mx-auto text-center">
-            Your community for consulting, learning, and growth at UW Bothell
-          </p>
-        </div>
-      </section>
 
       {/* Mission Section */}
       <section className="py-20 bg-white">
@@ -130,9 +119,61 @@ export default function AboutPage() {
                 consultants and future industry leaders.
               </p>
             </div>
-            <div className="bg-gray-100 rounded-2xl p-8 h-64 flex items-center justify-center">
+            <div className="flex items-center justify-center">
               <p className="text-gray-400 text-center">
-                [Mission Image Placeholder]
+                <Image
+                  src="/images/MissionImg.JPG"
+                  alt={executiveOfficers.md[0].name}
+                  width={1920}
+                  height={1080}
+                  quality={100}
+                  priority
+                  objectFit="cover"
+                  className="mx-auto mb-6 rounded-md w-full h-full object-cover "
+                />
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      {/* What We Do Section */}
+      <section className="py-6 bg-white mb-20">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+          <h2 className="text-4xl font-heading font-bold text-purple mb-8 text-center">
+            What We Do
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="bg-white border-2 border-gray-200 rounded-xl p-8 hover:border-purple transition-colors">
+              <h3 className="text-2xl font-heading font-semibold text-purple mb-4">
+                Real Projects
+              </h3>
+              <p className="text-gray-700 leading-relaxed">
+                Work with local businesses and nonprofits on actual consulting
+                projects. You&apos;ll help solve real problems while building
+                your skills and resume!
+              </p>
+            </div>
+
+            <div className="bg-white border-2 border-gray-200 rounded-xl p-8 hover:border-purple transition-colors">
+              <h3 className="text-2xl font-heading font-semibold text-purple mb-4">
+                Workshops & Training
+              </h3>
+              <p className="text-gray-700 leading-relaxed">
+                Learn through fun workshops, case competitions, and hands-on
+                training. We&apos;ll teach you everything from frameworks to
+                presentation skills!
+              </p>
+            </div>
+
+            <div className="bg-white border-2 border-gray-200 rounded-xl p-8 hover:border-purple transition-colors">
+              <h3 className="text-2xl font-heading font-semibold text-purple mb-4">
+                Community & Events
+              </h3>
+              <p className="text-gray-700 leading-relaxed">
+                Meet professionals, connect with alumni, and hang out with other
+                members at speaker events, social gatherings, and team
+                activities!
               </p>
             </div>
           </div>
@@ -146,7 +187,7 @@ export default function AboutPage() {
             Meet our 2025-2026 Partners
           </h2>
           <p className="text-gray-600 text-center mb-16 max-w-3xl mx-auto">
-            Each executive member has been rigorously selected through a
+            Each executive member has been rigorously evaluated through a
             comprehensive hiring process to ensure they meet the highest
             standards of competence and leadership. We invite you to explore
             their individual biographies for further insights into their
@@ -196,7 +237,6 @@ export default function AboutPage() {
                 </Link>
               </div>
               <div className="relative bg-white rounded-2xl p-8 pb-16 shadow-md hover:shadow-xl transition-shadow border-2 border-purple/30 w-full max-w-sm">
-               
                 <Image
                   src={executiveOfficers.md[1].imageUrl}
                   alt={executiveOfficers.md[1].name}
@@ -246,7 +286,6 @@ export default function AboutPage() {
                   key={index}
                   className="relative bg-white rounded-2xl p-8 pb-16 shadow-md hover:shadow-xl transition-shadow border border-gray-200 hover:border-purple"
                 >
-                  
                   <Image
                     src={officer.imageUrl}
                     alt={officer.name}
@@ -297,7 +336,6 @@ export default function AboutPage() {
                   key={index}
                   className="relative bg-white rounded-2xl p-8 pb-16 shadow-md hover:shadow-xl transition-shadow border border-gray-200 hover:border-purple"
                 >
-                
                   <Image
                     src={officer.imageUrl}
                     alt={officer.name}
@@ -348,20 +386,28 @@ export default function AboutPage() {
                   key={index}
                   className="relative bg-white rounded-2xl p-8 pb-16 shadow-md hover:shadow-xl transition-shadow border border-gray-200 hover:border-purple"
                 >
-                  {/* Headshot Placeholder */}
-                  <div className="w-24 h-24 bg-linear-to-br from-purple/10 to-light-purple/10 rounded-full mx-auto mb-6 flex items-center justify-center">
-                    <svg
-                      className="w-12 h-12 text-purple/30"
-                      fill="currentColor"
-                      viewBox="0 0 20 20"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
-                  </div>
+                  <Image
+                    src={officer.imageUrl}
+                    alt={officer.name}
+                    width={312}
+                    height={312}
+                    quality={100}
+                    priority
+                    objectFit="cover"
+                    className="mx-auto mb-6 rounded-md"
+                  />
+                  <svg
+                    className="w-12 h-12 text-purple/30"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+
                   <h4 className="text-lg font-heading font-bold text-purple text-left mb-1">
                     {officer.name}
                   </h4>
@@ -390,78 +436,6 @@ export default function AboutPage() {
                 </div>
               ))}
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* What We Do Section */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <h2 className="text-4xl font-heading font-bold text-purple mb-12 text-center">
-            What We Do
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-white border-2 border-gray-200 rounded-xl p-8 hover:border-purple transition-colors">
-              <h3 className="text-2xl font-heading font-semibold text-purple mb-4">
-                Real Projects
-              </h3>
-              <p className="text-gray-700 leading-relaxed">
-                Work with local businesses and nonprofits on actual consulting
-                projects. You&apos;ll help solve real problems while building
-                your skills and resume!
-              </p>
-            </div>
-
-            <div className="bg-white border-2 border-gray-200 rounded-xl p-8 hover:border-purple transition-colors">
-              <h3 className="text-2xl font-heading font-semibold text-purple mb-4">
-                Workshops & Training
-              </h3>
-              <p className="text-gray-700 leading-relaxed">
-                Learn through fun workshops, case competitions, and hands-on
-                training. We&apos;ll teach you everything from frameworks to
-                presentation skills!
-              </p>
-            </div>
-
-            <div className="bg-white border-2 border-gray-200 rounded-xl p-8 hover:border-purple transition-colors">
-              <h3 className="text-2xl font-heading font-semibold text-purple mb-4">
-                Community & Events
-              </h3>
-              <p className="text-gray-700 leading-relaxed">
-                Meet professionals, connect with alumni, and hang out with other
-                members at speaker events, social gatherings, and team
-                activities!
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* History Section */}
-      <section className="py-20 bg-gray-50">
-        <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <h2 className="text-4xl font-heading font-bold text-purple mb-8 text-center">
-            Our Story
-          </h2>
-          <div className="prose prose-lg max-w-none">
-            <p className="text-gray-700 leading-relaxed mb-4">
-              Founded by passionate UW Bothell students, the Bothell Consulting
-              Association has grown into one of the university&apos;s premier
-              student organizations, dedicated to developing future business and
-              consulting leaders.
-            </p>
-            <p className="text-gray-700 leading-relaxed mb-4">
-              We serve two key audiences: UWB students looking to grow their
-              consulting and business skills, and organizations seeking
-              strategic support. Through our partnerships, students gain
-              invaluable real-world experience while delivering meaningful
-              results for our clients.
-            </p>
-            <p className="text-gray-700 leading-relaxed">
-              Today, BCA continues to unlock solutions and empower futures,
-              bridging the gap between academic learning and professional
-              excellence in the consulting industry.
-            </p>
           </div>
         </div>
       </section>
