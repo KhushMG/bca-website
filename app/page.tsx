@@ -4,10 +4,7 @@ import Image from "next/image"; // Uncomment when adding bothell.jpg
 export default function Home() {
   return (
     <div className="pt-24">
-      {/* Hero Section */}
       <section className="relative min-h-[90vh] flex items-center overflow-hidden">
-        {/* Background Image - uncomment when bothell.jpg is added to /public  */}
-
         <div className="absolute inset-0">
           <Image
             src="/bothell.webp"
@@ -17,7 +14,7 @@ export default function Home() {
             priority
             quality={90}
           />
-          {/* Dark blur overlay */}
+
           <div className="absolute inset-0 bg-black/40 backdrop-blur-sm"></div>
         </div>
 
@@ -28,20 +25,6 @@ export default function Home() {
           <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto leading-relaxed">
             Unlocking Solutions. Empowering Futures.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Link
-              href="/join"
-              className="px-8 py-4 bg-gold text-purple font-semibold rounded-lg hover:bg-gold/90 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
-            >
-              Join Our Team
-            </Link>
-            <Link
-              href="/about"
-              className="px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-semibold rounded-lg hover:bg-white/20 transition-all border-2 border-white/30"
-            >
-              Learn More
-            </Link>
-          </div>
         </div>
       </section>
 
@@ -61,19 +44,25 @@ export default function Home() {
               Our goal is to equip students with the tools, confidence, and
               network to become impactful problem-solvers and future industry
               leaders.
-            </p>
+            </p>  
+            <div className="mt-8 text-center">
+              <Link
+                href="/about"
+                className="px-6 py-3 bg-purple text-white font-semibold rounded-lg hover:bg-purple/90 transition-all shadow-md hover:shadow-lg"
+              >
+                About Us
+              </Link>
+            </div>
           </div>
         </div>
       </section>
-
-      {/* Highlights Section */}
 
       {/* Partner with BCA Section */}
       <section className="py-10 bg-white mb-12">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-8">
             <h2 className="text-4xl font-heading font-bold text-purple mb-4">
-              Grow Your Vision
+              Grow Your Vision!
             </h2>
             <p className="text-gray-600 max-w-3xl mx-auto">
               Whether you&apos;re a student looking to grow or an organization
@@ -104,28 +93,23 @@ export default function Home() {
                   For Students
                 </h3>
               </div>
-              <div className="grow">
+              <div className="mb-4">
                 <p className="text-lg font-semibold text-gray-800 mb-4">
-                  Develop Professional Excellence
-                </p>
-                <p className="text-gray-700 leading-relaxed mb-6">
-                  Engage in substantive client projects while developing
-                  industry-relevant skills alongside ambitious peers. We provide
-                  comprehensive training for students interested in consulting
-                  and business strategy.
+                  Currently a UW Bothell student looking to grow your consulting
+                  and business skills?
                 </p>
               </div>
               <Link
                 href="/join"
                 className="self-start px-6 py-3 bg-purple text-white font-semibold rounded-lg hover:bg-purple/90 transition-all shadow-md hover:shadow-lg"
               >
-                Join BCA
+                Join BCA!
               </Link>
             </div>
 
             {/* For Organizations */}
             <div className="flex flex-col bg-linear-to-br from-gold/5 to-gold/10 rounded-2xl p-8 border-2 border-gold/30 hover:border-gold/50 transition-colors">
-              <div className="flex items-center gap-3 mb-6">
+              <div className="flex items-center gap-3 mb-4">
                 <div className="w-12 h-12 bg-gold rounded-lg flex items-center justify-center">
                   <svg
                     className="w-6 h-6 text-purple"
@@ -145,14 +129,10 @@ export default function Home() {
                   For Organizations
                 </h3>
               </div>
-              <div className="grow">
+              <div className="mb-4">
                 <p className="text-lg font-semibold text-gray-800 mb-4">
-                  Strategic Consulting Services
-                </p>
-                <p className="text-gray-700 leading-relaxed mb-6">
-                  Partner with our qualified student consultants to address your
-                  business challenges. We deliver rigorous analysis and
-                  actionable recommendations at competitive rates.
+                  Looking for support with your organization? <br />
+                  We&apos;re here to help!
                 </p>
               </div>
               <Link
