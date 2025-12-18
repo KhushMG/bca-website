@@ -7,48 +7,6 @@ export default function MembersPage() {
       major: "Business Administration",
       cohort: "Winter 2026",
     },
-    {
-      name: "Member Name",
-      role: "Vice President",
-      major: "Computer Science",
-      cohort: "Winter 2026",
-    },
-    {
-      name: "Member Name",
-      role: "Project Lead",
-      major: "Economics",
-      cohort: "Winter 2026",
-    },
-    {
-      name: "Member Name",
-      role: "Analyst",
-      major: "Data Science",
-      cohort: "Winter 2026",
-    },
-    {
-      name: "Member Name",
-      role: "Analyst",
-      major: "Business Administration",
-      cohort: "Winter 2026",
-    },
-    {
-      name: "Member Name",
-      role: "Analyst",
-      major: "Finance",
-      cohort: "Winter 2026",
-    },
-    {
-      name: "Member Name",
-      role: "Marketing Lead",
-      major: "Communications",
-      cohort: "Winter 2026",
-    },
-    {
-      name: "Member Name",
-      role: "Analyst",
-      major: "Management",
-      cohort: "Winter 2026",
-    },
   ];
 
   return (
@@ -68,7 +26,7 @@ export default function MembersPage() {
       {/* Cohort Badge */}
       <section className="pb-12 px-6 lg:px-8">
         <div className="max-w-7xl mx-auto flex justify-center">
-          <div className="inline-flex items-center gap-3 bg-gradient-to-r from-purple to-light-purple px-6 py-3 rounded-full">
+          <div className="inline-flex items-center gap-3 bg-linear-to-r from-purple to-light-purple px-6 py-3 rounded-full">
             <svg
               className="w-5 h-5 text-gold"
               fill="currentColor"
@@ -93,7 +51,7 @@ export default function MembersPage() {
                 className="bg-gray-900 rounded-2xl overflow-hidden hover:transform hover:scale-105 transition-all duration-300 border border-gray-800 hover:border-gold"
               >
                 {/* Headshot Placeholder */}
-                <div className="aspect-square bg-gradient-to-br from-purple/20 to-light-purple/20 flex items-center justify-center">
+                <div className="aspect-square bg-linear-to-br from-purple/20 to-light-purple/20 flex items-center justify-center">
                   <div className="text-center">
                     <div className="w-24 h-24 bg-gray-800 rounded-full mx-auto mb-4 flex items-center justify-center">
                       <svg
@@ -135,7 +93,7 @@ export default function MembersPage() {
 
       {/* Call to Action */}
       <section className="pb-24 px-6 lg:px-8">
-        <div className="max-w-4xl mx-auto text-center bg-gradient-to-r from-purple to-light-purple rounded-3xl p-12">
+        <div className="max-w-4xl mx-auto text-center bg-linear-to-r from-purple to-light-purple rounded-3xl p-12">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-white mb-4">
             Want to Join Our Team?
           </h2>

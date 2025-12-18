@@ -2,13 +2,20 @@ export default function JoinPage() {
   return (
     <div className="pt-24">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-purple to-light-purple py-24">
+      <section className="bg-linear-to-br from-purple to-light-purple py-24">
         <div className="max-w-7xl mx-auto px-6 lg:px-8 text-center">
           <h1 className="text-5xl md:text-6xl font-heading font-bold text-white mb-6">
-            Join BCA
+            Become a Consultant / Case Team member!
           </h1>
-          <p className="text-xl text-white/90 max-w-3xl mx-auto">
-            Take the next step in your consulting journey
+          <p className="text-xl text-white/90 max-w-5xl mx-auto">
+            After completing the CiT program, members become Consultants and
+            join real client-facing teams led by Engagement Managers and the
+            External Team. Case Teams conduct research, analyze business
+            problems, and deliver strategic recommendations tailored to the
+            specific needs of each client.
+            <br/>
+            <br/>
+            Companies are local to the Greater Seattle area and vary in industry.
           </p>
         </div>
       </section>
@@ -21,7 +28,7 @@ export default function JoinPage() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
             {/* BCA Side */}
-            <div className="bg-gradient-to-br from-purple/5 to-light-purple/5 border-2 border-purple rounded-2xl p-8">
+            <div className="bg-linear-to-br from-purple/5 to-light-purple/5 border-2 border-purple rounded-2xl p-8">
               <div className="flex items-center gap-3 mb-6">
                 <div className="w-12 h-12 bg-purple rounded-full flex items-center justify-center">
                   <svg
@@ -43,7 +50,7 @@ export default function JoinPage() {
               <ul className="space-y-4">
                 <li className="flex items-start gap-3">
                   <svg
-                    className="w-5 h-5 text-gold mt-1 flex-shrink-0"
+                    className="w-5 h-5 text-gold mt-1 shrink-0"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                   >
@@ -60,7 +67,7 @@ export default function JoinPage() {
                 </li>
                 <li className="flex items-start gap-3">
                   <svg
-                    className="w-5 h-5 text-gold mt-1 flex-shrink-0"
+                    className="w-5 h-5 text-gold mt-1 shrink-0"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                   >
@@ -77,7 +84,7 @@ export default function JoinPage() {
                 </li>
                 <li className="flex items-start gap-3">
                   <svg
-                    className="w-5 h-5 text-gold mt-1 flex-shrink-0"
+                    className="w-5 h-5 text-gold mt-1 shrink-0"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                   >
@@ -94,7 +101,7 @@ export default function JoinPage() {
                 </li>
                 <li className="flex items-start gap-3">
                   <svg
-                    className="w-5 h-5 text-gold mt-1 flex-shrink-0"
+                    className="w-5 h-5 text-gold mt-1 shrink-0"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                   >
@@ -111,7 +118,7 @@ export default function JoinPage() {
                 </li>
                 <li className="flex items-start gap-3">
                   <svg
-                    className="w-5 h-5 text-gold mt-1 flex-shrink-0"
+                    className="w-5 h-5 text-gold mt-1 shrink-0"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                   >
@@ -152,7 +159,7 @@ export default function JoinPage() {
               <ul className="space-y-4">
                 <li className="flex items-start gap-3">
                   <svg
-                    className="w-5 h-5 text-gray-400 mt-1 flex-shrink-0"
+                    className="w-5 h-5 text-gray-400 mt-1 shrink-0"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                   >
@@ -168,7 +175,7 @@ export default function JoinPage() {
                 </li>
                 <li className="flex items-start gap-3">
                   <svg
-                    className="w-5 h-5 text-gray-400 mt-1 flex-shrink-0"
+                    className="w-5 h-5 text-gray-400 mt-1 shrink-0"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                   >
@@ -184,7 +191,7 @@ export default function JoinPage() {
                 </li>
                 <li className="flex items-start gap-3">
                   <svg
-                    className="w-5 h-5 text-gray-400 mt-1 flex-shrink-0"
+                    className="w-5 h-5 text-gray-400 mt-1 shrink-0"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                   >
@@ -200,7 +207,7 @@ export default function JoinPage() {
                 </li>
                 <li className="flex items-start gap-3">
                   <svg
-                    className="w-5 h-5 text-gray-400 mt-1 flex-shrink-0"
+                    className="w-5 h-5 text-gray-400 mt-1 shrink-0"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                   >
@@ -216,7 +223,7 @@ export default function JoinPage() {
                 </li>
                 <li className="flex items-start gap-3">
                   <svg
-                    className="w-5 h-5 text-gray-400 mt-1 flex-shrink-0"
+                    className="w-5 h-5 text-gray-400 mt-1 shrink-0"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                   >
@@ -390,7 +397,7 @@ export default function JoinPage() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="flex items-start gap-4 bg-purple/5 p-6 rounded-xl">
-              <div className="w-8 h-8 bg-purple rounded-full flex items-center justify-center flex-shrink-0">
+              <div className="w-8 h-8 bg-purple rounded-full flex items-center justify-center shrink-0">
                 <svg
                   className="w-5 h-5 text-white"
                   fill="currentColor"
@@ -415,7 +422,7 @@ export default function JoinPage() {
             </div>
 
             <div className="flex items-start gap-4 bg-purple/5 p-6 rounded-xl">
-              <div className="w-8 h-8 bg-purple rounded-full flex items-center justify-center flex-shrink-0">
+              <div className="w-8 h-8 bg-purple rounded-full flex items-center justify-center shrink-0">
                 <svg
                   className="w-5 h-5 text-white"
                   fill="currentColor"
@@ -433,14 +440,13 @@ export default function JoinPage() {
                   Communication Skills
                 </h3>
                 <p className="text-gray-600 text-sm">
-                  Clear articulation of ideas and ability to present
-                  confidently
+                  Clear articulation of ideas and ability to present confidently
                 </p>
               </div>
             </div>
 
             <div className="flex items-start gap-4 bg-purple/5 p-6 rounded-xl">
-              <div className="w-8 h-8 bg-purple rounded-full flex items-center justify-center flex-shrink-0">
+              <div className="w-8 h-8 bg-purple rounded-full flex items-center justify-center shrink-0">
                 <svg
                   className="w-5 h-5 text-white"
                   fill="currentColor"
@@ -464,7 +470,7 @@ export default function JoinPage() {
             </div>
 
             <div className="flex items-start gap-4 bg-purple/5 p-6 rounded-xl">
-              <div className="w-8 h-8 bg-purple rounded-full flex items-center justify-center flex-shrink-0">
+              <div className="w-8 h-8 bg-purple rounded-full flex items-center justify-center shrink-0">
                 <svg
                   className="w-5 h-5 text-white"
                   fill="currentColor"
@@ -503,7 +509,7 @@ export default function JoinPage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="bg-gradient-to-br from-purple/5 to-light-purple/5 rounded-2xl p-8 border-2 border-purple/20">
+            <div className="bg-linear-to-br from-purple/5 to-light-purple/5 rounded-2xl p-8 border-2 border-purple/20">
               <h3 className="text-2xl font-heading font-bold text-purple mb-4">
                 For Organizations
               </h3>
@@ -516,7 +522,7 @@ export default function JoinPage() {
               <ul className="space-y-3 mb-6">
                 <li className="flex items-start gap-3">
                   <svg
-                    className="w-5 h-5 text-gold mt-1 flex-shrink-0"
+                    className="w-5 h-5 text-gold mt-1 shrink-0"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                   >
@@ -532,7 +538,7 @@ export default function JoinPage() {
                 </li>
                 <li className="flex items-start gap-3">
                   <svg
-                    className="w-5 h-5 text-gold mt-1 flex-shrink-0"
+                    className="w-5 h-5 text-gold mt-1 shrink-0"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                   >
@@ -548,7 +554,7 @@ export default function JoinPage() {
                 </li>
                 <li className="flex items-start gap-3">
                   <svg
-                    className="w-5 h-5 text-gold mt-1 flex-shrink-0"
+                    className="w-5 h-5 text-gold mt-1 shrink-0"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                   >
@@ -571,7 +577,7 @@ export default function JoinPage() {
               </a>
             </div>
 
-            <div className="bg-gradient-to-br from-gold/5 to-gold/10 rounded-2xl p-8 border-2 border-gold/30">
+            <div className="bg-linear-to-br from-gold/5 to-gold/10 rounded-2xl p-8 border-2 border-gold/30 hover:border-gold/50 transition-colors">
               <h3 className="text-2xl font-heading font-bold text-purple mb-4">
                 For Students
               </h3>
@@ -583,7 +589,7 @@ export default function JoinPage() {
               <ul className="space-y-3 mb-6">
                 <li className="flex items-start gap-3">
                   <svg
-                    className="w-5 h-5 text-purple mt-1 flex-shrink-0"
+                    className="w-5 h-5 text-purple mt-1 shrink-0"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                   >
@@ -599,7 +605,7 @@ export default function JoinPage() {
                 </li>
                 <li className="flex items-start gap-3">
                   <svg
-                    className="w-5 h-5 text-purple mt-1 flex-shrink-0"
+                    className="w-5 h-5 text-purple mt-1 shrink-0"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                   >
@@ -615,7 +621,7 @@ export default function JoinPage() {
                 </li>
                 <li className="flex items-start gap-3">
                   <svg
-                    className="w-5 h-5 text-purple mt-1 flex-shrink-0"
+                    className="w-5 h-5 text-purple mt-1 shrink-0"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                   >
@@ -641,32 +647,7 @@ export default function JoinPage() {
         </div>
       </section>
 
-      {/* CTA */}
-      <section className="py-20 bg-purple">
-        <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
-          <h2 className="text-4xl font-heading font-bold text-white mb-6">
-            Ready to Get Started?
-          </h2>
-          <p className="text-xl text-white/90 mb-8">
-            Whether you&apos;re a student or an organization, we&apos;re here
-            to help you grow
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="/contact"
-              className="px-8 py-4 bg-gold text-purple font-semibold rounded-lg hover:bg-gold/90 transition-all shadow-lg"
-            >
-              Get in Touch
-            </a>
-            <a
-              href="/members"
-              className="px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-semibold rounded-lg hover:bg-white/20 transition-all border-2 border-white/30"
-            >
-              Meet Our Members
-            </a>
-          </div>
-        </div>
-      </section>
+  
     </div>
   );
 }
