@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function AboutPage() {
   // Executive Officers Data
@@ -7,6 +8,7 @@ export default function AboutPage() {
       {
         name: "Ashley Tsang",
         title: "Managing Director",
+        imageUrl: "/headshots/officers/Ashley.jpg",
         blurb:
           "Ashley oversees the Marketing and Communications team, operations, and client engagements while leading the Executive Team to keep BCA aligned with its organizational goals.",
         linkedinUrl: "https://www.linkedin.com/in/ashleytsang29/",
@@ -14,6 +16,7 @@ export default function AboutPage() {
       {
         name: "Miyuki Sandoval",
         title: "Managing Director",
+        imageUrl: "/headshots/officers/Miyuki.jpg",
         blurb:
           "Miyuki oversees the Internal Team, manages operations and client engagements, and directs the Executive Team to ensure financial and organizational goals are met across campus.",
         linkedinUrl: "https://www.linkedin.com/in/miyukis1/",
@@ -23,6 +26,7 @@ export default function AboutPage() {
       {
         name: "Allison Doak",
         title: "Principal",
+        imageUrl: "/headshots/officers/Allison.jpg",
         blurb:
           "Allison manages quarterly case teams, drives client outreach and relations, oversees Engagement Managers, and ensures business deliverables meet expectations.",
         linkedinUrl: "https://www.linkedin.com/in/allison-d-49a0b6249/",
@@ -30,6 +34,7 @@ export default function AboutPage() {
       {
         name: "Khushmeet Gobindpuri",
         title: "External Associate Principal",
+        imageUrl: "/headshots/officers/Khushmeet.jpg",
         blurb:
           "Khushmeet supports case team engagement, assists with communicative outreach to clients, and strengthens BCA's presence on and off campus.",
         linkedinUrl: "https://www.linkedin.com/in/khushmeetgobindpuri/",
@@ -37,6 +42,7 @@ export default function AboutPage() {
       {
         name: "Kaylie Heshmati",
         title: "Intern",
+        imageUrl: "/headshots/officers/Kaylie.jpg",
         blurb:
           "Kaylie researches potential clients and supports outreach with member engagement to expand BCA's visibility.",
         linkedinUrl: "https://www.linkedin.com/in/kaylie-heshmati-26731222a/",
@@ -46,18 +52,21 @@ export default function AboutPage() {
       {
         name: "Sarah Rosen",
         title: "Principal",
+        imageUrl: "/headshots/officers/Sarah.jpg",
         blurb: "Sarah develops BCAapos;s consulting curriculum, ensuring that members gain practical skills and structured learning. She also leads recruitment to bring in new talent and strengthen the organizationapos;s internal growth.",
         linkedinUrl: "https://www.linkedin.com/in/rosensarah05/",
       },
       {
         name: "Andrew Quach",
         title: "Internal Associate Principal",
+        imageUrl: "/headshots/officers/Andrew.jpg",
         blurb: "Andrew works closely with students to ensure their active engagement, supports their professional development, and oversees the CiT curriculum to keep training on track and impactful.",
         linkedinUrl: "https://www.linkedin.com/in/anamquach/",
       },
       {
         name: "Ethan Kim",
         title: "Intern",
+        imageUrl: "/headshots/officers/Ethan.jpg",
         blurb: "Ethan facilitates weekly CiT sessions, serving as a mentor for members. He provides additional support to help students succeed and feel connected within the BCA community.",
         linkedinUrl: "https://www.linkedin.com/in/kimethan/",
       },
@@ -66,18 +75,21 @@ export default function AboutPage() {
       {
         name: "Davina Loekito",
         title: "Lead Marketing & Comms. Coordinator",
+        imageUrl: "/headshots/officers/Davina.jpg",
         blurb: "Davina leads BCA's marketing strategy, strengthening the organization's digital presence through social media, tabling, and design. She works to ensure BCA's professional brand attracts both students and external stakeholders.",
         linkedinUrl: "https://www.linkedin.com/in/davina-loekito/",
       },
       {
         name: "Aditi Menon",
         title: "Data & Marketing Engagement Coordinator",
+        imageUrl: "/headshots/officers/Aditi.jpg",
         blurb: "Aditi tracks engagement metrics and analyzes data to measure the impact of BCA's campaigns. Her work supports strategies that connect with the student community",
         linkedinUrl: "https://www.linkedin.com/in/aditi-menon-568199/",
       },
       {
         name: "Mao Nishio",
         title: "Marketing & Comms. Intern | Social Events Lead",
+        imageUrl: "/headshots/officers/Mao.jpg",
         blurb: "Mao assists with graphic design that reinforces BCA's brand and events. As Social Events Lead, she also organizes events that bring members together and introduce more students to the consulting field.",
         linkedinUrl: "https://www.linkedin.com/in/maonishio/",
       },
@@ -133,7 +145,7 @@ export default function AboutPage() {
           <h2 className="text-4xl font-heading font-bold text-purple mb-4 text-center">
             Meet our 2025-2026 Partners
           </h2>
-          <p className="text-gray-600 text-center mb-16 max-w-2xl mx-auto">
+          <p className="text-gray-600 text-center mb-16 max-w-3xl mx-auto">
             Each executive member has been rigorously selected through a
             comprehensive hiring process to ensure they meet the highest
             standards of competence and leadership. We invite you to explore
@@ -146,10 +158,17 @@ export default function AboutPage() {
             <h3 className="text-2xl font-heading font-bold text-purple mb-8 text-center">
               Managing Directors
             </h3>
-            <div className="flex justify-center gap-8">
+            <div className="flex justify-center gap-8 sm:flex-row flex-col">
               <div className="relative bg-white rounded-2xl p-8 pb-16 shadow-md hover:shadow-xl transition-shadow border-2 border-purple/30 w-full max-w-sm">
-                {/* Headshot Placeholder */}
-                <div className="w-32 h-32 bg-linear-to-br from-purple/10 to-light-purple/10 rounded-full mx-auto mb-6 flex items-center justify-center"></div>
+                <Image
+                  src={executiveOfficers.md[0].imageUrl}
+                  alt={executiveOfficers.md[0].name}
+                  width={312}
+                  height={312}
+                  quality={100}
+                  priority
+                  className="mx-auto mb-6 rounded-md"
+                />
                 <h4 className="text-xl font-heading font-bold text-purple text-left mb-1">
                   {executiveOfficers.md[0].name}
                 </h4>
@@ -177,8 +196,16 @@ export default function AboutPage() {
                 </Link>
               </div>
               <div className="relative bg-white rounded-2xl p-8 pb-16 shadow-md hover:shadow-xl transition-shadow border-2 border-purple/30 w-full max-w-sm">
-                {/* Headshot Placeholder */}
-                <div className="w-32 h-32 bg-linear-to-br from-purple/10 to-light-purple/10 rounded-full mx-auto mb-6 flex items-center justify-center"></div>
+               
+                <Image
+                  src={executiveOfficers.md[1].imageUrl}
+                  alt={executiveOfficers.md[1].name}
+                  width={312}
+                  height={312}
+                  quality={100}
+                  priority
+                  className="mx-auto mb-6 rounded-md"
+                />
                 <h4 className="text-xl font-heading font-bold text-purple text-left mb-1">
                   {executiveOfficers.md[1].name}
                 </h4>
@@ -219,20 +246,16 @@ export default function AboutPage() {
                   key={index}
                   className="relative bg-white rounded-2xl p-8 pb-16 shadow-md hover:shadow-xl transition-shadow border border-gray-200 hover:border-purple"
                 >
-                  {/* Headshot Placeholder */}
-                  <div className="w-24 h-24 bg-linear-to-br from-purple/10 to-light-purple/10 rounded-full mx-auto mb-6 flex items-center justify-center">
-                    <svg
-                      className="w-12 h-12 text-purple/30"
-                      fill="currentColor"
-                      viewBox="0 0 20 20"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
-                  </div>
+                  
+                  <Image
+                    src={officer.imageUrl}
+                    alt={officer.name}
+                    width={312}
+                    height={312}
+                    quality={100}
+                    priority
+                    className="mx-auto mb-6 rounded-md"
+                  />
                   <h4 className="text-lg font-heading font-bold text-purple text-left mb-1">
                     {officer.name}
                   </h4>
@@ -274,20 +297,16 @@ export default function AboutPage() {
                   key={index}
                   className="relative bg-white rounded-2xl p-8 pb-16 shadow-md hover:shadow-xl transition-shadow border border-gray-200 hover:border-purple"
                 >
-                  {/* Headshot Placeholder */}
-                  <div className="w-24 h-24 bg-linear-to-br from-purple/10 to-light-purple/10 rounded-full mx-auto mb-6 flex items-center justify-center">
-                    <svg
-                      className="w-12 h-12 text-purple/30"
-                      fill="currentColor"
-                      viewBox="0 0 20 20"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
-                  </div>
+                
+                  <Image
+                    src={officer.imageUrl}
+                    alt={officer.name}
+                    width={312}
+                    height={312}
+                    quality={100}
+                    priority
+                    className="mx-auto mb-6 rounded-md"
+                  />
                   <h4 className="text-lg font-heading font-bold text-purple text-left mb-1">
                     {officer.name}
                   </h4>
@@ -374,8 +393,6 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
-
-    
 
       {/* What We Do Section */}
       <section className="py-20 bg-white">
