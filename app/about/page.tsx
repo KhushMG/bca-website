@@ -145,7 +145,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white border-2 border-gray-200 rounded-xl p-8 hover:border-purple transition-colors">
               <h3 className="text-2xl font-heading font-semibold text-purple mb-4">
-                Real Projects
+                Client Engagements
               </h3>
               <p className="text-gray-700 leading-relaxed">
                 Work with local businesses and nonprofits on actual consulting

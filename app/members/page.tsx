@@ -1,23 +1,64 @@
 export default function MembersPage() {
-  // Sample member data - can be replaced with real data
   const members = [
     {
       name: "Member Name",
-      role: "President",
+      role: "Case Team",
       major: "Business Administration",
       cohort: "Winter 2026",
+    },
+    {
+      name: "Member Name",
+      role: "Case Team",
+      major: "Business Administration",
+      cohort: "Winter 2026",
+    },
+    {
+      name: "Member Name",
+      role: "Case Team",
+      major: "Business Administration",
+      cohort: "Winter 2026",
+    },
+    {
+      name: "Member Name",
+      role: "Case Team",
+      major: "Business Administration",
+      cohort: "Winter 2026",
+    },
+    {
+      name: "Member Name",
+      role: "Case Team",
+      major: "Business Administration",
+      cohort: "Winter 2026",
+    },
+    {
+      name: "Member Name",
+      role: "Case Team",
+      major: "Business Administration",
+      cohort: "Spring 2025",
+    },
+    {
+      name: "Member Name",
+      role: "Case Team",
+      major: "Business Administration",
+      cohort: "Spring 2025",
+    },
+    {
+      name: "Member Name",
+      role: "Case Team",
+      major: "Business Administration",
+      cohort: "Spring 2025",
     },
   ];
 
   return (
-    <div className="bg-black min-h-screen">
+    <div className="bg-white min-h-screen">
       {/* Hero Section */}
       <section className="pt-36 pb-20 px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
-          <h1 className="text-5xl md:text-6xl font-heading font-bold text-white mb-6">
+          <h1 className="text-5xl md:text-6xl font-heading font-bold  mb-6 text-purple">
             Our Members
           </h1>
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+          <p className="text-xl text-black max-w-3xl mx-auto">
             Meet the amazing students making BCA happen!
           </p>
         </div>
@@ -43,13 +84,22 @@ export default function MembersPage() {
 
       {/* Members Grid */}
       <section className="pb-20 px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {members.map((member, index) => (
               <div
                 key={index}
-                className="bg-gray-900 rounded-2xl overflow-hidden hover:transform hover:scale-105 transition-all duration-300 border border-gray-800 hover:border-gold"
+                className="relative bg-white rounded-2xl p-8 pb-10 shadow-md
+                hover:shadow-2xl transition-shadow border-4 border-purple/30
+                w-full max-w-sm"
               >
+                {/* bg-white rounded-2xl shadow-md p-4 pb-10 overflow-hidden
+                hover:transform hover:scale-105 transition-all duration-300
+                border border-purple/30 hover:border-gold max-w-sm */}
+
+                {/* relative bg-white rounded-2xl p-8 pb-16 shadow-md
+                hover:shadow-xl transition-shadow border-4 border-purple/30
+                w-full max-w-sm */}
                 {/* Headshot Placeholder */}
                 <div className="aspect-square bg-linear-to-br from-purple/20 to-light-purple/20 flex items-center justify-center">
                   <div className="text-center">
@@ -66,13 +116,14 @@ export default function MembersPage() {
                         />
                       </svg>
                     </div>
-                    <p className="text-gray-500 text-xs">Headshot Placeholder</p>
+                    <p className="text-gray-500 text-xs">
+                      Headshot Placeholder
+                    </p>
                   </div>
                 </div>
-
                 {/* Member Info */}
-                <div className="p-6">
-                  <h3 className="text-xl font-heading font-bold text-white mb-1">
+                <div className="text-left mt-4">
+                  <h3 className="text-xl font-heading font-bold text-black mb-1">
                     {member.name}
                   </h3>
                   <p className="text-gold font-semibold text-sm mb-3">
