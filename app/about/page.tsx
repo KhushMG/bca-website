@@ -199,7 +199,7 @@ export default function AboutPage() {
               Managing Directors
             </h3>
             <div className="flex justify-center gap-8 sm:flex-row flex-col">
-              <div className="relative bg-white rounded-2xl p-8 pb-16 shadow-md hover:shadow-xl transition-shadow border-4 border-purple/30 w-full max-w-sm">
+              <div className="relative bg-white rounded-2xl p-8 pb-16 shadow-md hover:shadow-xl hover:border-purple-600 border-4 border-purple/30 w-full max-w-sm hover:scale-105 transition-all duration-300">
                 <Image
                   src={executiveOfficers.md[0].imageUrl}
                   alt={executiveOfficers.md[0].name}
@@ -235,7 +235,7 @@ export default function AboutPage() {
                   </svg>
                 </Link>
               </div>
-              <div className="relative bg-white rounded-2xl p-8 pb-16 shadow-md hover:shadow-xl transition-shadow border-4 border-purple/30 w-full max-w-sm">
+              <div className="relative bg-white rounded-2xl p-8 pb-16 shadow-md hover:shadow-xl hover:border-purple-600 border-4 border-purple/30 w-full max-w-sm hover:scale-105 transition-all duration-300">
                 <Image
                   src={executiveOfficers.md[1].imageUrl}
                   alt={executiveOfficers.md[1].name}
@@ -283,7 +283,7 @@ export default function AboutPage() {
               {executiveOfficers.external.map((officer, index) => (
                 <div
                   key={index}
-                  className="relative bg-white rounded-2xl p-8 pb-16 shadow-md hover:shadow-xl transition-shadow border-4 border-purple/30 duration-300  hover:border-purple"
+                  className="relative bg-white rounded-2xl p-8 pb-16 shadow-md hover:shadow-xl hover:border-purple-600 border-4 border-purple/30 w-full max-w-sm hover:scale-105 transition-all duration-300"
                 >
                   <Image
                     src={officer.imageUrl}
@@ -333,7 +333,7 @@ export default function AboutPage() {
               {executiveOfficers.internal.map((officer, index) => (
                 <div
                   key={index}
-                  className="relative bg-white rounded-2xl p-8 pb-16 shadow-md hover:shadow-xl transition-shadow duration-300 border-4 border-purple/30 hover:border-purple"
+                  className="relative bg-white rounded-2xl p-8 pb-16 shadow-md hover:shadow-xl hover:border-purple-600 border-4 border-purple/30 w-full max-w-sm hover:scale-105 transition-all duration-300"
                 >
                   <Image
                     src={officer.imageUrl}
@@ -383,7 +383,7 @@ export default function AboutPage() {
               {executiveOfficers.marketing.map((officer, index) => (
                 <div
                   key={index}
-                  className="relative bg-white rounded-2xl p-8 pb-16 shadow-md hover:shadow-xl transition-shadow border-4 border-purple/30  hover:border-purple"
+                  className="relative bg-white rounded-2xl p-8 pb-16 shadow-md hover:shadow-xl hover:border-purple-600 border-4 border-purple/30 w-full max-w-sm hover:scale-105 transition-all duration-300"
                 >
                   <Image
                     src={officer.imageUrl}
