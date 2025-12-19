@@ -4,49 +4,41 @@ export default function MembersPage() {
       name: "Member Name",
       role: "Case Team",
       major: "Business Administration",
-      cohort: "Winter 2026",
     },
     {
       name: "Member Name",
       role: "Case Team",
       major: "Business Administration",
-      cohort: "Winter 2026",
     },
     {
       name: "Member Name",
       role: "Case Team",
       major: "Business Administration",
-      cohort: "Winter 2026",
     },
     {
       name: "Member Name",
       role: "Case Team",
       major: "Business Administration",
-      cohort: "Winter 2026",
     },
     {
       name: "Member Name",
       role: "Case Team",
       major: "Business Administration",
-      cohort: "Winter 2026",
     },
     {
       name: "Member Name",
       role: "Case Team",
       major: "Business Administration",
-      cohort: "Spring 2025",
     },
     {
       name: "Member Name",
       role: "Case Team",
       major: "Business Administration",
-      cohort: "Spring 2025",
     },
     {
       name: "Member Name",
       role: "Case Team",
       major: "Business Administration",
-      cohort: "Spring 2025",
     },
   ];
 
@@ -65,6 +57,9 @@ export default function MembersPage() {
             analysis, and strategic recommendations. Together, they combine
             leadership and problem-solving to create value for our partnerships.
           </p>
+          <p className="text-2xl text-orange-400 mt-12 max-w-4xl mx-auto">
+            Please note: this page is currently under construction!
+          </p>
         </div>
       </section>
 
@@ -72,13 +67,6 @@ export default function MembersPage() {
       <section className="pb-12 px-6 lg:px-8">
         <div className="max-w-7xl mx-auto flex justify-center">
           <div className="inline-flex items-center gap-3 bg-linear-to-r from-purple to-light-purple px-6 py-3 rounded-full">
-            <svg
-              className="w-5 h-5 text-gold"
-              fill="currentColor"
-              viewBox="0 0 20 20"
-            >
-              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-            </svg>
             <span className="text-white font-heading font-bold text-lg">
               Spring 2025 Case Team
             </span>
@@ -107,21 +95,8 @@ export default function MembersPage() {
                 {/* Headshot Placeholder */}
                 <div className="aspect-square bg-linear-to-br from-purple/20 to-light-purple/20 flex items-center justify-center">
                   <div className="text-center">
-                    <div className="w-24 h-24 bg-gray-800 rounded-full mx-auto mb-4 flex items-center justify-center">
-                      <svg
-                        className="w-12 h-12 text-gray-600"
-                        fill="currentColor"
-                        viewBox="0 0 20 20"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
-                          clipRule="evenodd"
-                        />
-                      </svg>
-                    </div>
                     <p className="text-gray-500 text-xs">
-                      Headshot Placeholder
+                      Headshots Coming Soon!
                     </p>
                   </div>
                 </div>
@@ -134,11 +109,6 @@ export default function MembersPage() {
                     {member.role}
                   </p>
                   <p className="text-gray-400 text-sm mb-2">{member.major}</p>
-                  <div className="inline-block bg-purple/20 px-3 py-1 rounded-full">
-                    <p className="text-light-purple text-xs font-semibold">
-                      {member.cohort}
-                    </p>
-                  </div>
                 </div>
               </div>
             ))}
