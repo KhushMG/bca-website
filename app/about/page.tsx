@@ -36,7 +36,7 @@ export default function AboutPage() {
         title: "External Associate Principal",
         imageUrl: "/headshots/officers/Khushmeet.jpg",
         blurb:
-          "Khushmeet supports case team engagement, assists with communicative outreach to clients, and strengthens BCA's presence on and off campus.",
+          "Khushmeet supports case team engagement, assists with outreach to clients, and strengthens BCA's presence on and off campus.",
         linkedinUrl: "https://www.linkedin.com/in/khushmeetgobindpuri/",
       },
       {
@@ -53,7 +53,7 @@ export default function AboutPage() {
         name: "Sarah Rosen",
         title: "Principal",
         imageUrl: "/headshots/officers/Sarah.jpg",
-        blurb: "Sarah develops BCAapos;s consulting curriculum, ensuring that members gain practical skills and structured learning. She also leads recruitment to bring in new talent and strengthen the organizationapos;s internal growth.",
+        blurb: "Sarah develops BCA's consulting curriculum, ensuring that members gain practical skills and structured learning. She also leads recruitment to bring in new talent and strengthen the organization's internal growth.",
         linkedinUrl: "https://www.linkedin.com/in/rosensarah05/",
       },
       {
@@ -83,12 +83,12 @@ export default function AboutPage() {
         name: "Aditi Menon",
         title: "Data & Marketing Engagement Coordinator",
         imageUrl: "/headshots/officers/Aditi.jpg",
-        blurb: "Aditi tracks engagement metrics and analyzes data to measure the impact of BCA's campaigns. Her work supports strategies that connect with the student community",
+        blurb: "Aditi tracks engagement metrics and analyzes data to measure the impact of BCA's campaigns. Her work supports strategies that connect with the student community.",
         linkedinUrl: "https://www.linkedin.com/in/aditi-menon-568199/",
       },
       {
         name: "Mao Nishio",
-        title: "Marketing & Comms. Intern | Social Events Lead",
+        title: "Marketing & Comms. Intern, Social Events Lead",
         imageUrl: "/headshots/officers/Mao.jpg",
         blurb: "Mao assists with graphic design that reinforces BCA's brand and events. As Social Events Lead, she also organizes events that bring members together and introduce more students to the consulting field.",
         linkedinUrl: "https://www.linkedin.com/in/maonishio/",
@@ -98,7 +98,6 @@ export default function AboutPage() {
 
   return (
     <div className="pt-24">
-
       {/* Mission Section */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
@@ -136,7 +135,7 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
-      
+
       {/* What We Do Section */}
       <section className="py-6 bg-white mb-20">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
@@ -200,7 +199,7 @@ export default function AboutPage() {
               Managing Directors
             </h3>
             <div className="flex justify-center gap-8 sm:flex-row flex-col">
-              <div className="relative bg-white rounded-2xl p-8 pb-16 shadow-md hover:shadow-xl transition-shadow border-2 border-purple/30 w-full max-w-sm">
+              <div className="relative bg-white rounded-2xl p-8 pb-16 shadow-md hover:shadow-xl transition-shadow border-4 border-purple/30 w-full max-w-sm">
                 <Image
                   src={executiveOfficers.md[0].imageUrl}
                   alt={executiveOfficers.md[0].name}
@@ -213,7 +212,7 @@ export default function AboutPage() {
                 <h4 className="text-xl font-heading font-bold text-purple text-left mb-1">
                   {executiveOfficers.md[0].name}
                 </h4>
-                <p className="text-gold font-semibold text-left mb-2">
+                <p className="text-black font-semibold text-left mb-2">
                   {executiveOfficers.md[0].title}
                 </p>
                 <p className="text-gray-600 text-left text-sm">
@@ -236,7 +235,7 @@ export default function AboutPage() {
                   </svg>
                 </Link>
               </div>
-              <div className="relative bg-white rounded-2xl p-8 pb-16 shadow-md hover:shadow-xl transition-shadow border-2 border-purple/30 w-full max-w-sm">
+              <div className="relative bg-white rounded-2xl p-8 pb-16 shadow-md hover:shadow-xl transition-shadow border-4 border-purple/30 w-full max-w-sm">
                 <Image
                   src={executiveOfficers.md[1].imageUrl}
                   alt={executiveOfficers.md[1].name}
@@ -249,7 +248,7 @@ export default function AboutPage() {
                 <h4 className="text-xl font-heading font-bold text-purple text-left mb-1">
                   {executiveOfficers.md[1].name}
                 </h4>
-                <p className="text-gold font-semibold text-left mb-2">
+                <p className="text-black font-semibold text-left mb-2">
                   {executiveOfficers.md[1].title}
                 </p>
                 <p className="text-gray-600 text-left text-sm">
@@ -284,7 +283,7 @@ export default function AboutPage() {
               {executiveOfficers.external.map((officer, index) => (
                 <div
                   key={index}
-                  className="relative bg-white rounded-2xl p-8 pb-16 shadow-md hover:shadow-xl transition-shadow border border-gray-200 hover:border-purple"
+                  className="relative bg-white rounded-2xl p-8 pb-16 shadow-md hover:shadow-xl transition-shadow border-4 border-purple/30 duration-300  hover:border-purple"
                 >
                   <Image
                     src={officer.imageUrl}
@@ -298,7 +297,7 @@ export default function AboutPage() {
                   <h4 className="text-lg font-heading font-bold text-purple text-left mb-1">
                     {officer.name}
                   </h4>
-                  <p className="text-gold font-semibold text-left text-sm mb-2">
+                  <p className="text-black font-semibold text-left text-sm mb-2">
                     {officer.title}
                   </p>
                   <p className="text-gray-600 text-left text-sm">
@@ -334,7 +333,7 @@ export default function AboutPage() {
               {executiveOfficers.internal.map((officer, index) => (
                 <div
                   key={index}
-                  className="relative bg-white rounded-2xl p-8 pb-16 shadow-md hover:shadow-xl transition-shadow border border-gray-200 hover:border-purple"
+                  className="relative bg-white rounded-2xl p-8 pb-16 shadow-md hover:shadow-xl transition-shadow duration-300 border-4 border-purple/30 hover:border-purple"
                 >
                   <Image
                     src={officer.imageUrl}
@@ -348,7 +347,7 @@ export default function AboutPage() {
                   <h4 className="text-lg font-heading font-bold text-purple text-left mb-1">
                     {officer.name}
                   </h4>
-                  <p className="text-gold font-semibold text-left text-sm mb-2">
+                  <p className="text-black font-semibold text-left text-sm mb-2">
                     {officer.title}
                   </p>
                   <p className="text-gray-600 text-left text-sm">
@@ -384,7 +383,7 @@ export default function AboutPage() {
               {executiveOfficers.marketing.map((officer, index) => (
                 <div
                   key={index}
-                  className="relative bg-white rounded-2xl p-8 pb-16 shadow-md hover:shadow-xl transition-shadow border border-gray-200 hover:border-purple"
+                  className="relative bg-white rounded-2xl p-8 pb-16 shadow-md hover:shadow-xl transition-shadow border-4 border-purple/30  hover:border-purple"
                 >
                   <Image
                     src={officer.imageUrl}
@@ -396,22 +395,11 @@ export default function AboutPage() {
                     objectFit="cover"
                     className="mx-auto mb-6 rounded-md"
                   />
-                  <svg
-                    className="w-12 h-12 text-purple/30"
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
 
                   <h4 className="text-lg font-heading font-bold text-purple text-left mb-1">
                     {officer.name}
                   </h4>
-                  <p className="text-gold font-semibold text-left text-sm mb-2">
+                  <p className="text-black font-semibold text-left text-sm mb-2">
                     {officer.title}
                   </p>
                   <p className="text-gray-600 text-left text-sm">

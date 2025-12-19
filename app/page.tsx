@@ -4,7 +4,7 @@ import Image from "next/image"; // Uncomment when adding bothell.jpg
 export default function Home() {
   return (
     <div className="pt-20">
-      <section className="relative min-h-[90vh] flex items-center overflow-hidden">
+      <section className="relative min-h-screen flex items-center overflow-hidden">
         <div className="absolute inset-0">
           <Image
             src="/bothell.webp"
@@ -29,7 +29,7 @@ export default function Home() {
       </section>
 
       {/* Introduction Section */}
-      <section className="py-20 bg-white mt-4">
+      <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-4xl md:text-5xl font-heading font-bold text-purple mb-6 text-center">
@@ -64,10 +64,6 @@ export default function Home() {
             <h2 className="text-4xl font-heading font-bold text-purple mb-4">
               Grow Your Vision!
             </h2>
-            <p className="text-gray-600 max-w-3xl mx-auto">
-              Whether you&apos;re a student looking to grow or an organization
-              seeking support, BCA is here to help
-            </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">

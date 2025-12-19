@@ -20,9 +20,9 @@ export default function Navigation() {
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-md border-b border-purple/10 shadow-sm drop-shadow-lg">
-      <div className="max-w-7xl mx-auto px-6 lg:px-8">
+      <div className="w-full px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
-          <Link href="/" className=" flex items-center">
+          <Link href="/" className="flex items-center">
           <Image src="/BCA-Logo.png" alt="BCA Logo" width={100} height={100} quality={100} priority />
             <div className="relative">
             
