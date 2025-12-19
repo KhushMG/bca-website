@@ -2,7 +2,7 @@ export default function ContactPage() {
   return (
     <div className="pt-24">
       {/* Hero Section */}
-      <section className="bg-light-purple py-24">
+      <section className="bg-linear-to-br from-purple to-light-purple py-24">
         <div className="max-w-7xl mx-auto px-6 lg:px-8 text-center">
           <h1 className="text-5xl md:text-6xl font-heading font-bold text-white mb-6">
             Contact Us
@@ -26,7 +26,7 @@ export default function ContactPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Service 1 */}
-            <div className="bg-gradient-to-br from-purple/5 to-light-purple/5 rounded-2xl p-8 border border-purple/20">
+            <div className="bg-linear-to-br from-purple/5 to-light-purple/5 rounded-2xl p-8 border border-purple/20">
               <div className="w-14 h-14 bg-purple rounded-xl flex items-center justify-center mb-6">
                 <svg
                   className="w-7 h-7 text-white"
@@ -52,7 +52,7 @@ export default function ContactPage() {
               <ul className="space-y-2">
                 <li className="flex items-start gap-2 text-sm text-gray-600">
                   <svg
-                    className="w-5 h-5 text-gold mt-0.5 flex-shrink-0"
+                    className="w-5 h-5 text-gold mt-0.5 shrink-0"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                   >

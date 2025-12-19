@@ -11,9 +11,7 @@ export default function Footer() {
               Bothell Consulting Association
             </h3>
             <p className="text-white text-sm leading-relaxed">
-              At the University of Washington - Bothell, empowering students to
-              explore and excel in the business and consulting industry through
-              hands-on project experience and professional mentorship.
+              We empower students to explore and excel in the business and consulting industry through hands-on training and client engagements.
             </p>
           </div>
 
@@ -92,7 +90,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-gray-800 mt-8 pt-8 text-center">
+        <div className="border-t border-gray-white mt-8 pt-8 text-center">
           <p className="text-white text-sm">
             © {new Date().getFullYear()} Bothell Consulting Association. All
             rights reserved.

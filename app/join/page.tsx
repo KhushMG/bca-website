@@ -5,14 +5,10 @@ export default function JoinPage() {
       <section className="bg-linear-to-br from-purple to-light-purple py-24">
         <div className="max-w-7xl mx-auto px-6 lg:px-8 text-center">
           <h1 className="text-5xl md:text-6xl font-heading font-bold text-white mb-6">
-            Join Us!
+            What&apos;s it like to join BCA?
           </h1>
           <p className="text-xl text-white/90 max-w-5xl mx-auto">
-            After completing the CiT program, members become Consultants and
-            join real client-facing teams led by Engagement Managers and the
-            External Team. Case Teams conduct research, analyze business
-            problems, and deliver strategic recommendations tailored to the
-            specific needs of each client.
+            After completing the CiT program, members become on BCA&apos;s Case Teams and join real client-facing teams led by Engagement Managers and the External Team. Case Teams conduct research, analyze business problems, and deliver strategic recommendations tailored to the specific needs of each client.
             <br />
             <br />
             Companies are local to the Greater Seattle area and vary in
@@ -154,7 +150,7 @@ export default function JoinPage() {
                 <path
                   strokeLinecap="round"
                   strokeLinejoin="round"
-                  strokeWidth={5}
+                  strokeWidth={4}
                   d="M2 12h40m0 0l-8-8m8 8l-8 8"
                 />
               </svg>
@@ -182,7 +178,7 @@ export default function JoinPage() {
                 <path
                   strokeLinecap="round"
                   strokeLinejoin="round"
-                  strokeWidth={5}
+                  strokeWidth={4}
                   d="M2 12h40m0 0l-8-8m8 8l-8 8"
                 />
               </svg>
@@ -207,7 +203,7 @@ export default function JoinPage() {
                 <path
                   strokeLinecap="round"
                   strokeLinejoin="round"
-                  strokeWidth={5}
+                  strokeWidth={4}
                   d="M2 12h40m0 0l-8-8m8 8l-8 8"
                 />
               </svg>
