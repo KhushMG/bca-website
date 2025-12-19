@@ -74,7 +74,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="mailto:contact@berkeleyconsulting.org"
+                  href="mailto:bothellconsultingassociation@gmail.com"
                   className="text-white hover:text-gold transition-colors text-sm"
                 >
                   Email
@@ -82,7 +82,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/company/bothell-consulting-association/"
                   className="text-white hover:text-gold transition-colors text-sm"
                 >
                   LinkedIn

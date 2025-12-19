@@ -23,12 +23,12 @@ export default function JoinPage() {
 
       {/* Requirements */}
       <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+        <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <h2 className="text-4xl font-heading font-bold text-purple mb-8 text-center">
             What We&apos;re Looking For
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
-            <div className="flex items-center gap-4 bg-purple/5 p-6 rounded-3xl h-32">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="flex items-center gap-4 bg-purple/5 p-10 rounded-3xl h-32">
               <div className="w-8 h-8 bg-purple rounded-full flex items-center justify-center shrink-0">
                 <svg
                   className="w-5 h-5 text-white"
@@ -128,16 +128,13 @@ export default function JoinPage() {
         </div>
       </section>
 
-      {/* Application Process */}
       <section className="py-24 bg-gray-50 m">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8 justify-center">
           <h2 className="text-4xl font-heading font-bold text-purple mb-16 text-center">
-            Membership Application Process
+            Consultant-In-Training Application Process
           </h2>
 
-          {/* Process Steps - 4 in one row */}
-          <div className="flex flex-col md:flex-row items-start justify-center gap-6 md:gap-6">
-            {/* Step 1 - Application */}
+          <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-6">
             <div className="flex flex-col items-center">
               <div className="w-64 h-32 bg-purple rounded-3xl relative flex items-center justify-center shadow-xl shadow-purple/20">
                 <span className="text-xl font-heading font-bold text-white text-center">
@@ -147,9 +144,9 @@ export default function JoinPage() {
             </div>
 
             {/* Arrow */}
-            <div className="hidden md:flex items-center h-32">
+            <div className="flex items-center md:h-32">
               <svg
-                className="w-16 h-8 text-gold"
+                className="w-8 h-8 md:w-16 md:h-8 text-gold rotate-90 md:rotate-0"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 48 24"
@@ -157,26 +154,27 @@ export default function JoinPage() {
                 <path
                   strokeLinecap="round"
                   strokeLinejoin="round"
-                  strokeWidth={3}
+                  strokeWidth={5}
                   d="M2 12h40m0 0l-8-8m8 8l-8 8"
                 />
               </svg>
             </div>
 
-            {/* Step 2 - Interview */}
             <div className="flex flex-col items-center">
               <div className="w-64 h-32 bg-purple rounded-3xl relative flex items-center justify-center shadow-xl shadow-purple/20">
                 <span className="text-xl font-heading font-bold text-white text-center">
-                  Interview <br/>
-                  <span className="text-sm text-white/95 text-center mt-1">(Behavioral + Case)</span>
+                  Interview <br />
+                  <span className="text-sm text-white/95 text-center mt-1">
+                    (Behavioral + Case)
+                  </span>
                 </span>
               </div>
             </div>
 
             {/* Arrow */}
-            <div className="hidden md:flex items-center h-32">
+            <div className="flex items-center md:h-32">
               <svg
-                className="w-16 h-8 text-gold"
+                className="w-8 h-8 md:w-16 md:h-8 text-gold rotate-90 md:rotate-0"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 48 24"
@@ -184,13 +182,12 @@ export default function JoinPage() {
                 <path
                   strokeLinecap="round"
                   strokeLinejoin="round"
-                  strokeWidth={3}
+                  strokeWidth={5}
                   d="M2 12h40m0 0l-8-8m8 8l-8 8"
                 />
               </svg>
             </div>
 
-            {/* Step 3 - Final Decision */}
             <div className="flex flex-col items-center">
               <div className="w-64 h-32 bg-purple rounded-3xl relative flex items-center justify-center shadow-xl shadow-purple/20 px-3">
                 <span className="text-xl font-heading font-bold text-white text-center leading-tight">
@@ -200,9 +197,9 @@ export default function JoinPage() {
             </div>
 
             {/* Arrow */}
-            <div className="hidden md:flex items-center h-32">
+            <div className="flex items-center md:h-32">
               <svg
-                className="w-16 h-8 text-gold"
+                className="w-8 h-8 md:w-16 md:h-8 text-gold rotate-90 md:rotate-0"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 48 24"
@@ -210,13 +207,12 @@ export default function JoinPage() {
                 <path
                   strokeLinecap="round"
                   strokeLinejoin="round"
-                  strokeWidth={3}
+                  strokeWidth={5}
                   d="M2 12h40m0 0l-8-8m8 8l-8 8"
                 />
               </svg>
             </div>
 
-            {/* Step 4 - Welcome to BCA */}
             <div className="flex flex-col items-center">
               <div className="w-64 h-32 bg-gold rounded-3xl relative flex items-center justify-center shadow-xl shadow-purple/20 px-3">
                 <span className="text-xl font-heading font-bold text-purple text-center leading-tight">
