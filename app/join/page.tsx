@@ -5,7 +5,7 @@ export default function JoinPage() {
       <section className="bg-linear-to-br from-purple to-light-purple py-24">
         <div className="max-w-7xl mx-auto px-6 lg:px-8 text-center">
           <h1 className="text-5xl md:text-6xl font-heading font-bold text-white mb-6">
-            Become a Consultant / Case Team member!
+            Join Us!
           </h1>
           <p className="text-xl text-white/90 max-w-5xl mx-auto">
             After completing the CiT program, members become Consultants and
@@ -23,12 +23,12 @@ export default function JoinPage() {
 
       {/* Requirements */}
       <section className="py-20 bg-white">
-        <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <h2 className="text-3xl font-heading font-bold text-purple mb-8 text-center">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+          <h2 className="text-4xl font-heading font-bold text-purple mb-8 text-center">
             What We&apos;re Looking For
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="flex items-start gap-4 bg-purple/5 p-6 rounded-xl">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
+            <div className="flex items-center gap-4 bg-purple/5 p-6 rounded-3xl h-32">
               <div className="w-8 h-8 bg-purple rounded-full flex items-center justify-center shrink-0">
                 <svg
                   className="w-5 h-5 text-white"
@@ -43,17 +43,17 @@ export default function JoinPage() {
                 </svg>
               </div>
               <div>
-                <h3 className="font-heading font-semibold text-purple mb-1">
+                <h3 className="font-heading font-semibold text-purple text-lg mb-1">
                   Analytical Thinking
                 </h3>
-                <p className="text-gray-600 text-sm">
+                <p className="text-gray-600 text-base">
                   Ability to break down complex problems and develop structured
                   solutions
                 </p>
               </div>
             </div>
 
-            <div className="flex items-start gap-4 bg-purple/5 p-6 rounded-xl">
+            <div className="flex items-center gap-4 bg-purple/5 p-6 rounded-3xl h-32">
               <div className="w-8 h-8 bg-purple rounded-full flex items-center justify-center shrink-0">
                 <svg
                   className="w-5 h-5 text-white"
@@ -68,16 +68,16 @@ export default function JoinPage() {
                 </svg>
               </div>
               <div>
-                <h3 className="font-heading font-semibold text-purple mb-1">
+                <h3 className="font-heading font-semibold text-purple text-lg mb-1">
                   Communication Skills
                 </h3>
-                <p className="text-gray-600 text-sm">
+                <p className="text-gray-600 text-base">
                   Clear articulation of ideas and ability to present confidently
                 </p>
               </div>
             </div>
 
-            <div className="flex items-start gap-4 bg-purple/5 p-6 rounded-xl">
+            <div className="flex items-center gap-4 bg-purple/5 p-6 rounded-3xl h-32">
               <div className="w-8 h-8 bg-purple rounded-full flex items-center justify-center shrink-0">
                 <svg
                   className="w-5 h-5 text-white"
@@ -92,16 +92,16 @@ export default function JoinPage() {
                 </svg>
               </div>
               <div>
-                <h3 className="font-heading font-semibold text-purple mb-1">
+                <h3 className="font-heading font-semibold text-purple text-lg mb-1">
                   Team Collaboration
                 </h3>
-                <p className="text-gray-600 text-sm">
+                <p className="text-gray-600 text-base">
                   Work effectively with diverse teams toward common goals
                 </p>
               </div>
             </div>
 
-            <div className="flex items-start gap-4 bg-purple/5 p-6 rounded-xl">
+            <div className="flex items-center gap-4 bg-purple/5 p-6 rounded-3xl h-32">
               <div className="w-8 h-8 bg-purple rounded-full flex items-center justify-center shrink-0">
                 <svg
                   className="w-5 h-5 text-white"
@@ -116,10 +116,10 @@ export default function JoinPage() {
                 </svg>
               </div>
               <div>
-                <h3 className="font-heading font-semibold text-purple mb-1">
+                <h3 className="font-heading font-semibold text-purple text-lg mb-1">
                   Passion for Consulting
                 </h3>
-                <p className="text-gray-600 text-sm">
+                <p className="text-gray-600 text-base">
                   Genuine interest in business strategy and problem-solving
                 </p>
               </div>
@@ -129,145 +129,99 @@ export default function JoinPage() {
       </section>
 
       {/* Application Process */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-24 bg-gray-50 m">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <h2 className="text-4xl font-heading font-bold text-purple mb-4 text-center">
+          <h2 className="text-4xl font-heading font-bold text-purple mb-16 text-center">
             Membership Application Process
           </h2>
-          <p className="text-gray-600 text-center mb-16 max-w-2xl mx-auto">
-            Our selective application process ensures we bring in the most
-            passionate and talented individuals
-          </p>
 
-          {/* Process Steps with Arrows */}
-          <div className="max-w-6xl mx-auto">
-            <div className="grid grid-cols-1 md:grid-cols-5 gap-6 items-center">
-              {/* Step 1 */}
-              <div className="flex flex-col items-center">
-                <div className="w-32 h-32 bg-purple rounded-2xl flex items-center justify-center mb-4 shadow-lg">
-                  <span className="text-4xl font-heading font-bold text-white">
-                    1
-                  </span>
-                </div>
-                <h3 className="text-lg font-heading font-semibold text-purple mb-2 text-center">
-                  Submit Application
-                </h3>
-                <p className="text-sm text-gray-600 text-center">
-                  Complete our online form
-                </p>
-              </div>
-
-              {/* Arrow */}
-              <div className="hidden md:flex justify-center items-center">
-                <svg
-                  className="w-12 h-12 text-gold"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={3}
-                    d="M13 7l5 5m0 0l-5 5m5-5H6"
-                  />
-                </svg>
-              </div>
-
-              {/* Step 2 */}
-              <div className="flex flex-col items-center">
-                <div className="w-32 h-32 bg-purple rounded-2xl flex items-center justify-center mb-4 shadow-lg">
-                  <span className="text-4xl font-heading font-bold text-white">
-                    2
-                  </span>
-                </div>
-                <h3 className="text-lg font-heading font-semibold text-purple mb-2 text-center">
-                  First Round Interview
-                </h3>
-                <p className="text-sm text-gray-600 text-center">
-                  Meet with current members
-                </p>
-              </div>
-
-              {/* Arrow */}
-              <div className="hidden md:flex justify-center items-center">
-                <svg
-                  className="w-12 h-12 text-gold"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={3}
-                    d="M13 7l5 5m0 0l-5 5m5-5H6"
-                  />
-                </svg>
-              </div>
-
-              {/* Step 3 */}
-              <div className="flex flex-col items-center">
-                <div className="w-32 h-32 bg-purple rounded-2xl flex items-center justify-center mb-4 shadow-lg">
-                  <span className="text-4xl font-heading font-bold text-white">
-                    3
-                  </span>
-                </div>
-                <h3 className="text-lg font-heading font-semibold text-purple mb-2 text-center">
-                  Case Interview
-                </h3>
-                <p className="text-sm text-gray-600 text-center">
-                  Solve a business case
-                </p>
+          {/* Process Steps - 4 in one row */}
+          <div className="flex flex-col md:flex-row items-start justify-center gap-6 md:gap-6">
+            {/* Step 1 - Application */}
+            <div className="flex flex-col items-center">
+              <div className="w-64 h-32 bg-purple rounded-3xl relative flex items-center justify-center shadow-xl shadow-purple/20">
+                <span className="text-xl font-heading font-bold text-white text-center">
+                  Application
+                </span>
               </div>
             </div>
 
-            {/* Second Row */}
-            <div className="flex justify-center mt-8">
+            {/* Arrow */}
+            <div className="hidden md:flex items-center h-32">
               <svg
-                className="w-12 h-12 text-gold rotate-90"
+                className="w-16 h-8 text-gold"
                 fill="none"
                 stroke="currentColor"
-                viewBox="0 0 24 24"
+                viewBox="0 0 48 24"
               >
                 <path
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth={3}
-                  d="M13 7l5 5m0 0l-5 5m5-5H6"
+                  d="M2 12h40m0 0l-8-8m8 8l-8 8"
                 />
               </svg>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-8 max-w-3xl mx-auto">
-              {/* Step 4 */}
-              <div className="flex flex-col items-center">
-                <div className="w-32 h-32 bg-gold rounded-2xl flex items-center justify-center mb-4 shadow-lg">
-                  <span className="text-4xl font-heading font-bold text-purple">
-                    4
-                  </span>
-                </div>
-                <h3 className="text-lg font-heading font-semibold text-purple mb-2 text-center">
-                  Final Decision
-                </h3>
-                <p className="text-sm text-gray-600 text-center">
-                  Receive your offer
-                </p>
+            {/* Step 2 - Interview */}
+            <div className="flex flex-col items-center">
+              <div className="w-64 h-32 bg-purple rounded-3xl relative flex items-center justify-center shadow-xl shadow-purple/20">
+                <span className="text-xl font-heading font-bold text-white text-center">
+                  Interview <br/>
+                  <span className="text-sm text-white/95 text-center mt-1">(Behavioral + Case)</span>
+                </span>
               </div>
+            </div>
 
-              {/* Step 5 */}
-              <div className="flex flex-col items-center">
-                <div className="w-32 h-32 bg-gold rounded-2xl flex items-center justify-center mb-4 shadow-lg">
-                  <span className="text-4xl font-heading font-bold text-purple">
-                    5
-                  </span>
-                </div>
-                <h3 className="text-lg font-heading font-semibold text-purple mb-2 text-center">
+            {/* Arrow */}
+            <div className="hidden md:flex items-center h-32">
+              <svg
+                className="w-16 h-8 text-gold"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 48 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={3}
+                  d="M2 12h40m0 0l-8-8m8 8l-8 8"
+                />
+              </svg>
+            </div>
+
+            {/* Step 3 - Final Decision */}
+            <div className="flex flex-col items-center">
+              <div className="w-64 h-32 bg-purple rounded-3xl relative flex items-center justify-center shadow-xl shadow-purple/20 px-3">
+                <span className="text-xl font-heading font-bold text-white text-center leading-tight">
+                  Final Decision
+                </span>
+              </div>
+            </div>
+
+            {/* Arrow */}
+            <div className="hidden md:flex items-center h-32">
+              <svg
+                className="w-16 h-8 text-gold"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 48 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={3}
+                  d="M2 12h40m0 0l-8-8m8 8l-8 8"
+                />
+              </svg>
+            </div>
+
+            {/* Step 4 - Welcome to BCA */}
+            <div className="flex flex-col items-center">
+              <div className="w-64 h-32 bg-gold rounded-3xl relative flex items-center justify-center shadow-xl shadow-purple/20 px-3">
+                <span className="text-xl font-heading font-bold text-purple text-center leading-tight">
                   Welcome to BCA!
-                </h3>
-                <p className="text-sm text-gray-600 text-center">
-                  Begin your journey
-                </p>
+                </span>
               </div>
             </div>
           </div>
