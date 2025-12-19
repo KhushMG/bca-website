@@ -31,7 +31,7 @@ export default function Home() {
       {/* Introduction Section */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-4xl mx-auto flex flex-col items-center justify-center">
             <h2 className="text-4xl md:text-5xl font-heading font-bold text-purple mb-6 text-center">
               Who We Are
             </h2>
@@ -44,15 +44,15 @@ export default function Home() {
               Our goal is to equip students with the tools, confidence, and
               network to become impactful problem-solvers and future industry
               leaders.
-            </p>  
-            <div className="mt-8 text-center">
+            </p>
+            <button className="flex justify-center items-center mt-8 text-center hover:scale-105 transition-all duration-300">
               <Link
                 href="/about"
-                className="px-6 py-3 bg-purple text-white font-semibold rounded-lg hover:bg-purple/90 transition-all shadow-md hover:shadow-lg"
+                className="px-6 py-3 bg-purple text-white font-semibold rounded-lg hover:bg-purple/90 transition-all shadow-md hover:shadow-xl"
               >
                 About Us
               </Link>
-            </div>
+            </button>
           </div>
         </div>
       </section>
@@ -97,7 +97,7 @@ export default function Home() {
               </div>
               <Link
                 href="/join"
-                className="self-start px-6 py-3 bg-purple text-white font-semibold rounded-lg hover:bg-purple/90 transition-all shadow-md hover:shadow-lg"
+                className="self-start px-6 py-3 bg-purple text-white font-semibold rounded-lg hover:bg-purple/90 transition-all shadow-md hover:shadow-xl"
               >
                 Join BCA!
               </Link>
@@ -133,7 +133,7 @@ export default function Home() {
               </div>
               <Link
                 href="/contact"
-                className="self-start px-6 py-3 bg-gold text-purple font-semibold rounded-lg hover:bg-gold/90 transition-all shadow-md hover:shadow-lg"
+                className="self-start px-6 py-3 bg-gold text-purple font-semibold rounded-lg hover:bg-gold/90 transition-all shadow-md hover:shadow-xl"
               >
                 Partner With Us
               </Link>
