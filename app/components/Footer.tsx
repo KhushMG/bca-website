@@ -45,14 +45,14 @@ export default function Footer() {
                   Join BCA
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link
                   href="/alumni"
                   className="text-white hover:text-gold transition-colors text-sm"
                 >
                   Alumni
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
 
