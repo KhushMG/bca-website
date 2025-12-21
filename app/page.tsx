@@ -33,7 +33,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="max-w-4xl mx-auto flex flex-col items-center justify-center">
             <h2 className="text-4xl md:text-5xl font-heading font-bold text-purple mb-6 text-center">
-              Who We Are
+              What is BCA?
             </h2>
             <p className="text-lg text-gray-700 text-center leading-relaxed">
               The Bothell Consulting Association (BCA) at the University of

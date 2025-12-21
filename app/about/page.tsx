@@ -10,7 +10,7 @@ export default function AboutPage() {
         title: "Managing Director",
         imageUrl: "/headshots/officers/Ashley.jpg",
         blurb:
-          "Ashley oversees the Marketing and Communications team, operations, and client engagements while leading the Executive Team to keep BCA aligned with its organizational goals.",
+          "Ashley co-leads the Executive, Internal, and Marketing teams, overseeing operations and client engagements to strengthen BCA’s campus presence and ensure alignment with organizational goals.",
         linkedinUrl: "https://www.linkedin.com/in/ashleytsang29/",
       },
       {
@@ -18,7 +18,7 @@ export default function AboutPage() {
         title: "Managing Director",
         imageUrl: "/headshots/officers/Miyuki.jpg",
         blurb:
-          "Miyuki oversees the Internal Team, manages operations and client engagements, and directs the Executive Team to ensure financial and organizational goals are met across campus.",
+          "Miyuki co-leads the Executive, Internal, and Marketing teams, overseeing operations and client engagements to strengthen BCA’s campus presence and ensure alignment with organizational goals.",
         linkedinUrl: "https://www.linkedin.com/in/miyukis1/",
       },
     ],
@@ -53,21 +53,24 @@ export default function AboutPage() {
         name: "Sarah Rosen",
         title: "Principal",
         imageUrl: "/headshots/officers/Sarah.jpg",
-        blurb: "Sarah develops BCA's consulting curriculum, ensuring that members gain practical skills and structured learning. She also leads recruitment to bring in new talent and strengthen the organization's internal growth.",
+        blurb:
+          "Sarah develops BCA's consulting curriculum, ensuring that members gain practical skills and structured learning. She also leads recruitment to bring in new talent and strengthen the organization's internal growth.",
         linkedinUrl: "https://www.linkedin.com/in/rosensarah05/",
       },
       {
         name: "Andrew Quach",
         title: "Internal Associate Principal",
         imageUrl: "/headshots/officers/Andrew.jpg",
-        blurb: "Andrew works closely with students to ensure their active engagement, supports their professional development, and oversees the CiT curriculum to keep training on track and impactful.",
+        blurb:
+          "Andrew works closely with students to ensure their active engagement, supports their professional development, and oversees the CiT curriculum to keep training on track and impactful.",
         linkedinUrl: "https://www.linkedin.com/in/anamquach/",
       },
       {
         name: "Ethan Kim",
         title: "Intern",
         imageUrl: "/headshots/officers/Ethan.jpg",
-        blurb: "Ethan facilitates weekly CiT sessions, serving as a mentor for members. He provides additional support to help students succeed and feel connected within the BCA community.",
+        blurb:
+          "Ethan facilitates weekly CiT sessions, serving as a mentor for members. He provides additional support to help students succeed and feel connected within the BCA community.",
         linkedinUrl: "https://www.linkedin.com/in/kimethan/",
       },
     ],
@@ -76,21 +79,24 @@ export default function AboutPage() {
         name: "Davina Loekito",
         title: "Lead Marketing & Comms. Coordinator",
         imageUrl: "/headshots/officers/Davina.jpg",
-        blurb: "Davina leads BCA's marketing strategy, strengthening the organization's digital presence through social media, tabling, and design. She works to ensure BCA's professional brand attracts both students and external stakeholders.",
+        blurb:
+          "Davina leads BCA's marketing strategy, strengthening the organization's presence through social media content and design. She ensures BCA's professional brand attracts both students and external stakeholders.",
         linkedinUrl: "https://www.linkedin.com/in/davina-loekito/",
       },
       {
         name: "Aditi Menon",
         title: "Data & Marketing Engagement Coordinator",
         imageUrl: "/headshots/officers/Aditi.jpg",
-        blurb: "Aditi tracks engagement metrics and analyzes data to measure the impact of BCA's campaigns. Her work supports strategies that connect with the student community.",
+        blurb:
+          "Aditi tracks engagement metrics and analyzes data to measure the impact of BCA's campaigns. Her work supports strategies that connect with the student community.",
         linkedinUrl: "https://www.linkedin.com/in/aditi-menon-568199/",
       },
       {
         name: "Mao Nishio",
         title: "Marketing & Comms. Intern, Social Events Lead",
         imageUrl: "/headshots/officers/Mao.jpg",
-        blurb: "Mao assists with graphic design that reinforces BCA's brand and events. As Social Events Lead, she also organizes events that bring members together and introduce more students to the consulting field.",
+        blurb:
+          "Mao assists with graphic design that reinforces BCA's brand and events. As Social Events Lead, she also organizes events that bring members together and introduce more students to the consulting field.",
         linkedinUrl: "https://www.linkedin.com/in/maonishio/",
       },
     ],
@@ -114,23 +120,20 @@ export default function AboutPage() {
               </p>
               <p className="text-lg text-gray-700 leading-relaxed">
                 BCA is centered around three pillars: Curriculum, Cases, and
-                Clients, whcih transforms curious learners into capable
+                Clients, which transform curious learners into capable
                 consultants and future industry leaders.
               </p>
             </div>
-            <div className="flex items-center justify-center">
-              <p className="text-gray-400 text-center">
+            <div className="flex items-center justify-center">     
                 <Image
-                  src="/images/MissionImg.JPG"
-                  alt={executiveOfficers.md[0].name}
-                  width={1920}
-                  height={1080}
+                  src="/images/Officers-Group.jpg"
+                  alt="BCA Officers Group Photo"
+                  width={4982}
+                  height={4000}
                   quality={100}
                   priority
-                  objectFit="cover"
-                  className="mx-auto mb-6 rounded-md w-full h-full object-cover "
+                  className="mx-auto mb-6 rounded-md w-full h-full"
                 />
-              </p>
             </div>
           </div>
         </div>
@@ -148,8 +151,8 @@ export default function AboutPage() {
                 Client Engagements
               </h3>
               <p className="text-gray-700 leading-relaxed">
-                Work with local businesses and nonprofits on actual consulting
-                projects. You&apos;ll help solve real problems while building
+                You will work with local businesses and nonprofits on actual
+                consulting projects to help solve real problems while building
                 your skills and resume!
               </p>
             </div>
@@ -159,9 +162,8 @@ export default function AboutPage() {
                 Workshops & Training
               </h3>
               <p className="text-gray-700 leading-relaxed">
-                Learn through fun workshops, case competitions, and hands-on
-                training. We&apos;ll teach you everything from frameworks to
-                presentation skills!
+                We teach you everything from frameworks to presentation skills
+                through fun workshops, case competitions, and hands-on training.
               </p>
             </div>
 
@@ -170,8 +172,8 @@ export default function AboutPage() {
                 Community & Events
               </h3>
               <p className="text-gray-700 leading-relaxed">
-                Meet professionals, connect with alumni, and hang out with other
-                members at speaker events, social gatherings, and team
+                Gain access to a network of professionals, alumni, and build
+                connections with other members at events, gatherings, and team
                 activities!
               </p>
             </div>

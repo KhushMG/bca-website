@@ -1,70 +1,73 @@
+import Image from "next/image";
+
+
 export default function MembersPage() {
   const members = [
     {
       name: "Martin Mugo",
       role: "Winter '24 Engagement Manager",
       major: "Business Administration",
-      imageUrl: "/headshots/spr25_case-team/Martin.jpg",
+      imageUrl: "/headshots/spr25_case-team/Martin.jpeg",
     },
     {
       name: "Jason Kim",
       role: "Winter '24 Engagement Manager",
       major: "Business Administration",
-      imageUrl: "/headshots/spr25_case-team/Jason.jpg",
+      imageUrl: "/headshots/spr25_case-team/Jason.jpeg",
     },
     {
       name: "Andy Nguyen",
       role: "Winter '24 Engagement Manager",
       major: "Business Administration",
-      imageUrl: "/headshots/spr25_case-team/Andy.jpg",
+      imageUrl: "/headshots/spr25_case-team/Andy.jpeg",
     },
     {
       name: "Rebekah Song",
       role: "Spring '25 Case Team",
       major: "Business Administration",
-      imageUrl: "/headshots/spr25_case-team/Rebekah.jpg",
+      imageUrl: "/headshots/spr25_case-team/Rebekah.jpeg",
     },
     {
       name: "Tushar Ganta",
       role: "Spring '25 Case Team",
       major: "Business Administration",
-      imageUrl: "/headshots/spr25_case-team/Tushar.jpg",
+      imageUrl: "/headshots/spr25_case-team/Tushar.jpeg",
     },
     {
       name: "Davina Loekito",
       role: "Spring '25 Case Team",
       major: "Business Administration",
-      imageUrl: "/headshots/spr25_case-team/Davina.jpg",
+      imageUrl: "/headshots/spr25_case-team/Davina.jpeg",
     },
     {
       name: "Liza Oum",
       role: "Spring '25 Case Team",
       major: "Business Administration",
-      imageUrl: "/headshots/spr25_case-team/Liza.jpg",
+      imageUrl: "/headshots/spr25_case-team/Liza.jpeg",
     },
     {
       name: "Harsh Malik",
       role: "Spring '25 Case Team",
       major: "Business Administration",
-      imageUrl: "/headshots/spr25_case-team/Harsh.jpg",
+      imageUrl: "/headshots/spr25_case-team/Harsh.jpeg",
     },
     {
       name: "Emily Park",
       role: "Spring '25 Case Team",
       major: "Business Administration",
-      imageUrl: "/headshots/spr25_case-team/Emily.jpg",
+      imageUrl: "/headshots/spr25_case-team/Emily.jpeg",
     },
     {
       name: "Darren Nguyen",
       role: "Spring '25 Case Team",
       major: "Business Administration",
-      imageUrl: "/headshots/spr25_case-team/Darren.jpg",
+      imageUrl: "/headshots/spr25_case-team/Darren.jpeg",
     },
     {
       name: "Aditi Menon",
       role: "Spring '25 Case Team",
       major: "Business Administration",
-      imageUrl: "/headshots/spr25_case-team/Aditi.jpg",
+      imageUrl: "/headshots/spr25_case-team/Aditi.jpeg",
     },
   ];
 
@@ -107,17 +110,19 @@ export default function MembersPage() {
             {members.map((member, index) => (
               <div
                 key={index}
-                className="relative bg-white rounded-2xl p-8 pb-10 shadow-md
+                className="relative bg-white rounded-2xl p-4 pt-4 pb-4 shadow-md
                 hover:shadow-2xl transition-shadow border-4 border-purple/30
                 w-full max-w-sm"
               >
-                <div className="aspect-square bg-linear-to-br from-purple/20 to-light-purple/20 flex items-center justify-center">
-                  <div className="text-center">
-                    <p className="text-gray-500 text-xs">
-                      Headshots Coming Soon!
-                    </p>
-                  </div>
-                </div>
+                <Image
+                  src={member.imageUrl}
+                  alt={member.name}
+                  width={312}
+                  height={312}
+                  quality={100}
+                  priority
+                  className="mx-auto mb-6 rounded-md"
+                />
                 {/* Member Info */}
                 <div className="text-left mt-4">
                   <h3 className="text-xl font-heading font-bold text-black mb-1">
