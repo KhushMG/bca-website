@@ -112,28 +112,28 @@ export default function AboutPage() {
               <h2 className="text-4xl font-heading font-bold text-purple mb-6">
                 Our Mission
               </h2>
-              <p className="text-lg text-gray-700 leading-relaxed mb-4">
+              <p className="text-xl text-gray-700 leading-relaxed mb-4">
                 BCA is UW Bothell&apos;s premier student-led consulting club
                 dedicated to turning passion into skill. We provide students
                 with free, hands-on experiences that build business acumen,
                 professionalism, and confidence.
               </p>
-              <p className="text-lg text-gray-700 leading-relaxed">
+              <p className="text-xl text-gray-700 leading-relaxed">
                 BCA is centered around three pillars: Curriculum, Cases, and
                 Clients, which transform curious learners into capable
                 consultants and future industry leaders.
               </p>
             </div>
-            <div className="flex items-center justify-center">     
-                <Image
-                  src="/images/Officers-Group.jpg"
-                  alt="BCA Officers Group Photo"
-                  width={4982}
-                  height={4000}
-                  quality={100}
-                  priority
-                  className="mx-auto mb-6 rounded-md w-full h-full"
-                />
+            <div className="flex items-center justify-center">
+              <Image
+                src="/images/Officers-Group.jpg"
+                alt="BCA Officers Group Photo"
+                width={4982}
+                height={4000}
+                quality={100}
+                priority
+                className="mx-auto mb-6 rounded-md w-full h-full"
+              />
             </div>
           </div>
         </div>
@@ -150,7 +150,7 @@ export default function AboutPage() {
               <h3 className="text-2xl font-heading font-semibold text-purple mb-4">
                 Client Engagements
               </h3>
-              <p className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 text-xl leading-relaxed">
                 You will work with local businesses and nonprofits on actual
                 consulting projects to help solve real problems while building
                 your skills and resume!
@@ -161,7 +161,7 @@ export default function AboutPage() {
               <h3 className="text-2xl font-heading font-semibold text-purple mb-4">
                 Workshops & Training
               </h3>
-              <p className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 text-xl leading-relaxed">
                 We teach you everything from frameworks to presentation skills
                 through fun workshops, case competitions, and hands-on training.
               </p>
@@ -171,7 +171,7 @@ export default function AboutPage() {
               <h3 className="text-2xl font-heading font-semibold text-purple mb-4">
                 Community & Events
               </h3>
-              <p className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 text-xl leading-relaxed">
                 Gain access to a network of professionals, alumni, and build
                 connections with other members at events, gatherings, and team
                 activities!
@@ -187,7 +187,7 @@ export default function AboutPage() {
           <h2 className="text-4xl font-heading font-bold text-purple mb-4 text-center">
             Meet our 2025-2026 Partners
           </h2>
-          <p className="text-gray-600 text-center mb-16 max-w-3xl mx-auto">
+          <p className="text-gray-600 text-xl text-center mb-16 max-w-3xl mx-auto">
             Each executive member has been rigorously evaluated through a
             comprehensive hiring process to ensure they meet the highest
             standards of competence and leadership. We invite you to explore
@@ -201,7 +201,7 @@ export default function AboutPage() {
               Managing Directors
             </h3>
             <div className="flex justify-center gap-8 sm:flex-row flex-col">
-              <div className="relative bg-white rounded-2xl p-8 pb-16 shadow-md hover:shadow-xl hover:border-purple-600 border-4 border-purple/30 w-full max-w-sm hover:scale-105 transition-all duration-300">
+              <div className="relative bg-white rounded-2xl p-8 pb-16 shadow-md hover:shadow-xl hover:border-purple-600 border-4 border-purple/30 w-full max-w-sm hover:scale-105 transition-all duration-300 text-lg">
                 <Image
                   src={executiveOfficers.md[0].imageUrl}
                   alt={executiveOfficers.md[0].name}
@@ -217,7 +217,7 @@ export default function AboutPage() {
                 <p className="text-black font-semibold text-left mb-2">
                   {executiveOfficers.md[0].title}
                 </p>
-                <p className="text-gray-600 text-left text-sm">
+                <p className="text-gray-600 text-left text-md">
                   {executiveOfficers.md[0].blurb}
                 </p>
                 <Link
@@ -227,8 +227,8 @@ export default function AboutPage() {
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="28"
-                    height="28"
+                    width="32"
+                    height="32"
                     fill="currentColor"
                     className="bi bi-linkedin"
                     viewBox="0 0 16 16"
@@ -237,7 +237,7 @@ export default function AboutPage() {
                   </svg>
                 </Link>
               </div>
-              <div className="relative bg-white rounded-2xl p-8 pb-16 shadow-md hover:shadow-xl hover:border-purple-600 border-4 border-purple/30 w-full max-w-sm hover:scale-105 transition-all duration-300">
+              <div className="relative bg-white rounded-2xl p-8 pb-16 shadow-md hover:shadow-xl hover:border-purple-600 border-4 border-purple/30 w-full max-w-sm hover:scale-105 transition-all duration-300 text-lg">
                 <Image
                   src={executiveOfficers.md[1].imageUrl}
                   alt={executiveOfficers.md[1].name}
@@ -253,7 +253,7 @@ export default function AboutPage() {
                 <p className="text-black font-semibold text-left mb-2">
                   {executiveOfficers.md[1].title}
                 </p>
-                <p className="text-gray-600 text-left text-sm">
+                <p className="text-gray-600 text-left text-md">
                   {executiveOfficers.md[1].blurb}
                 </p>
                 <Link
@@ -263,8 +263,8 @@ export default function AboutPage() {
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="28"
-                    height="28"
+                    width="32"
+                    height="32"
                     fill="currentColor"
                     className="bi bi-linkedin"
                     viewBox="0 0 16 16"
@@ -296,13 +296,13 @@ export default function AboutPage() {
                     priority
                     className="mx-auto mb-6 rounded-md"
                   />
-                  <h4 className="text-lg font-heading font-bold text-purple text-left mb-1">
+                  <h4 className="text-xl font-heading font-bold text-purple text-left mb-1">
                     {officer.name}
                   </h4>
-                  <p className="text-black font-semibold text-left text-sm mb-2">
+                  <p className="text-black font-semibold text-left text-md mb-2">
                     {officer.title}
                   </p>
-                  <p className="text-gray-600 text-left text-sm">
+                  <p className="text-gray-600 text-left text-md">
                     {officer.blurb}
                   </p>
                   <Link
@@ -312,8 +312,8 @@ export default function AboutPage() {
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      width="28"
-                      height="28"
+                      width="32"
+                      height="32"
                       fill="currentColor"
                       className="bi bi-linkedin"
                       viewBox="0 0 16 16"
@@ -346,13 +346,13 @@ export default function AboutPage() {
                     priority
                     className="mx-auto mb-6 rounded-md"
                   />
-                  <h4 className="text-lg font-heading font-bold text-purple text-left mb-1">
+                  <h4 className="text-xl font-heading font-bold text-purple text-left mb-1">
                     {officer.name}
                   </h4>
-                  <p className="text-black font-semibold text-left text-sm mb-2">
+                  <p className="text-black font-semibold text-left text-md mb-2">
                     {officer.title}
                   </p>
-                  <p className="text-gray-600 text-left text-sm">
+                  <p className="text-gray-600 text-left text-md">
                     {officer.blurb}
                   </p>
                   <Link
@@ -362,8 +362,8 @@ export default function AboutPage() {
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      width="28"
-                      height="28"
+                      width="32"
+                      height="32"
                       fill="currentColor"
                       className="bi bi-linkedin"
                       viewBox="0 0 16 16"
@@ -398,13 +398,13 @@ export default function AboutPage() {
                     className="mx-auto mb-6 rounded-md"
                   />
 
-                  <h4 className="text-lg font-heading font-bold text-purple text-left mb-1">
+                  <h4 className="text-xl font-heading font-bold text-purple text-left mb-1">
                     {officer.name}
                   </h4>
-                  <p className="text-black font-semibold text-left text-sm mb-2">
+                  <p className="text-black font-semibold text-left text-md mb-2">
                     {officer.title}
                   </p>
-                  <p className="text-gray-600 text-left text-sm">
+                  <p className="text-gray-600 text-left text-md">
                     {officer.blurb}
                   </p>
                   <Link
@@ -414,8 +414,8 @@ export default function AboutPage() {
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      width="28"
-                      height="28"
+                      width="32"
+                      height="32"
                       fill="currentColor"
                       className="bi bi-linkedin"
                       viewBox="0 0 16 16"

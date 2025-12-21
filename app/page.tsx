@@ -35,7 +35,7 @@ export default function Home() {
             <h2 className="text-4xl md:text-5xl font-heading font-bold text-purple mb-6 text-center">
               What is BCA?
             </h2>
-            <p className="text-lg text-gray-700 text-center leading-relaxed">
+            <p className="text-xl text-gray-700 text-center leading-relaxed">
               The Bothell Consulting Association (BCA) at the University of
               Washington - Bothell empowers students to explore and excel in the
               business and consulting industry. Through an immersive curriculum,
@@ -48,9 +48,9 @@ export default function Home() {
             <button className="flex justify-center items-center mt-8 text-center hover:scale-105 transition-all duration-300">
               <Link
                 href="/about"
-                className="px-6 py-3 bg-purple text-white font-semibold rounded-lg hover:bg-purple/90 transition-all shadow-md hover:shadow-xl"
+                className="px-6 lg:px-8 py-4 bg-purple text-white font-semibold rounded-lg hover:bg-purple/90 transition-all shadow-md hover:shadow-xl"
               >
-                About Us
+                Learn More
               </Link>
             </button>
           </div>
@@ -90,7 +90,7 @@ export default function Home() {
                 </h3>
               </div>
               <div className="mb-4">
-                <p className="text-lg font-semibold text-gray-800 mb-4">
+                <p className="text-xl font-semibold text-gray-800 mb-4">
                   Currently a UW Bothell student looking to grow your consulting
                   and business skills?
                 </p>
@@ -126,7 +126,7 @@ export default function Home() {
                 </h3>
               </div>
               <div className="mb-4">
-                <p className="text-lg font-semibold text-gray-800 mb-4">
+                <p className="text-xl font-semibold text-gray-800 mb-4">
                   Looking for support with your organization? <br />
                   We&apos;re here to help!
                 </p>
