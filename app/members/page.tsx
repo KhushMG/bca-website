@@ -6,37 +6,38 @@ export default function MembersPage() {
     {
       name: "Martin Mugo",
       role: "Winter '24 Engagement Manager",
-      major: "Business Administration",
+      major: "Computer Science, focus on Cybersecurity & Information Assurance",
       imageUrl: "/headshots/spr25_case-team/Martin.jpg",
     },
     {
       name: "Jason Kim",
       role: "Winter '24 Engagement Manager",
-      major: "Business Administration",
+      major:
+        "Business Administration, focus on Leadership & Strategic Innovation",
       imageUrl: "/headshots/spr25_case-team/Jason.jpg",
     },
     {
       name: "Andy Nguyen",
       role: "Winter '24 Engagement Manager",
-      major: "Business Administration",
+      major: "Master of Professional Accounting",
       imageUrl: "/headshots/spr25_case-team/Andy.jpg",
     },
     {
       name: "Rebekah Song",
       role: "Spring '25 Case Team",
-      major: "Business Administration",
+      major: "Data Visualization & Law",
       imageUrl: "/headshots/spr25_case-team/Rebekah.jpg",
     },
     {
       name: "Tushar Ganta",
       role: "Spring '25 Case Team",
-      major: "Business Administration",
+      major: "Computer Science",
       imageUrl: "/headshots/spr25_case-team/Tushar.jpg",
     },
     {
       name: "Davina Loekito",
       role: "Spring '25 Case Team",
-      major: "Business Administration",
+      major: "Business Administration, focus on Marketing",
       imageUrl: "/headshots/spr25_case-team/Davina.jpg",
     },
     {
@@ -48,25 +49,25 @@ export default function MembersPage() {
     {
       name: "Harsh Malik",
       role: "Spring '25 Case Team",
-      major: "Business Administration",
+      major: "Data Visualization",
       imageUrl: "/headshots/spr25_case-team/Harsh.jpg",
     },
     {
       name: "Emily Park",
       role: "Spring '25 Case Team",
-      major: "Business Administration",
+      major: "Law",
       imageUrl: "/headshots/spr25_case-team/Emily.jpg",
     },
     {
       name: "Darren Nguyen",
       role: "Spring '25 Case Team",
-      major: "Business Administration",
+      major: "Data Visualization",
       imageUrl: "/headshots/spr25_case-team/Darren.jpg",
     },
     {
       name: "Aditi Menon",
       role: "Spring '25 Case Team",
-      major: "Business Administration",
+      major: "Mathematics",
       imageUrl: "/headshots/spr25_case-team/Aditi.jpg",
     },
   ];
@@ -105,8 +106,8 @@ export default function MembersPage() {
 
       {/* Members Grid */}
       <section className="pb-20 px-6 lg:px-8">
-        <div className="max-w-6xl mx-auto">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-10">
             {members.map((member, index) => (
               <div
                 key={index}
@@ -120,7 +121,7 @@ export default function MembersPage() {
                   width={1000}
                   height={1000}
                   objectFit="fill"
-                  
+
                   quality={100}
                   priority
                   className="mx-auto mb-6 rounded-md"
@@ -133,7 +134,7 @@ export default function MembersPage() {
                   <p className="text-gold font-semibold text-sm mb-3">
                     {member.role}
                   </p>
-                  <p className="text-gray-400 text-sm mb-2">{member.major}</p>
+                  <p className="text-gray-600 text-sm mb-2"><strong>Major:</strong> {member.major}</p>
                 </div>
               </div>
             ))}
