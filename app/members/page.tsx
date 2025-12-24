@@ -7,67 +7,67 @@ export default function MembersPage() {
       name: "Martin Mugo",
       role: "Winter '24 Engagement Manager",
       major: "Business Administration",
-      imageUrl: "/headshots/spr25_case-team/Martin.jpeg",
+      imageUrl: "/headshots/spr25_case-team/Martin.jpg",
     },
     {
       name: "Jason Kim",
       role: "Winter '24 Engagement Manager",
       major: "Business Administration",
-      imageUrl: "/headshots/spr25_case-team/Jason.jpeg",
+      imageUrl: "/headshots/spr25_case-team/Jason.jpg",
     },
     {
       name: "Andy Nguyen",
       role: "Winter '24 Engagement Manager",
       major: "Business Administration",
-      imageUrl: "/headshots/spr25_case-team/Andy.jpeg",
+      imageUrl: "/headshots/spr25_case-team/Andy.jpg",
     },
     {
       name: "Rebekah Song",
       role: "Spring '25 Case Team",
       major: "Business Administration",
-      imageUrl: "/headshots/spr25_case-team/Rebekah.jpeg",
+      imageUrl: "/headshots/spr25_case-team/Rebekah.jpg",
     },
     {
       name: "Tushar Ganta",
       role: "Spring '25 Case Team",
       major: "Business Administration",
-      imageUrl: "/headshots/spr25_case-team/Tushar.jpeg",
+      imageUrl: "/headshots/spr25_case-team/Tushar.jpg",
     },
     {
       name: "Davina Loekito",
       role: "Spring '25 Case Team",
       major: "Business Administration",
-      imageUrl: "/headshots/spr25_case-team/Davina.jpeg",
+      imageUrl: "/headshots/spr25_case-team/Davina.jpg",
     },
     {
       name: "Liza Oum",
       role: "Spring '25 Case Team",
       major: "Business Administration",
-      imageUrl: "/headshots/spr25_case-team/Liza.jpeg",
+      imageUrl: "/headshots/spr25_case-team/Liza.jpg",
     },
     {
       name: "Harsh Malik",
       role: "Spring '25 Case Team",
       major: "Business Administration",
-      imageUrl: "/headshots/spr25_case-team/Harsh.jpeg",
+      imageUrl: "/headshots/spr25_case-team/Harsh.jpg",
     },
     {
       name: "Emily Park",
       role: "Spring '25 Case Team",
       major: "Business Administration",
-      imageUrl: "/headshots/spr25_case-team/Emily.jpeg",
+      imageUrl: "/headshots/spr25_case-team/Emily.jpg",
     },
     {
       name: "Darren Nguyen",
       role: "Spring '25 Case Team",
       major: "Business Administration",
-      imageUrl: "/headshots/spr25_case-team/Darren.jpeg",
+      imageUrl: "/headshots/spr25_case-team/Darren.jpg",
     },
     {
       name: "Aditi Menon",
       role: "Spring '25 Case Team",
       major: "Business Administration",
-      imageUrl: "/headshots/spr25_case-team/Aditi.jpeg",
+      imageUrl: "/headshots/spr25_case-team/Aditi.jpg",
     },
   ];
 
@@ -117,8 +117,10 @@ export default function MembersPage() {
                 <Image
                   src={member.imageUrl}
                   alt={member.name}
-                  width={312}
-                  height={312}
+                  width={1000}
+                  height={1000}
+                  objectFit="fill"
+                  
                   quality={100}
                   priority
                   className="mx-auto mb-6 rounded-md"
