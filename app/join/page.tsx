@@ -1,27 +1,27 @@
 export default function JoinPage() {
   return (
     <div className="pt-24">
-      <section className="py-24 bg-gray-50 m">
+      <section className="py-24 bg-purple">
         <div className="max-w-4xl mx-auto px-6 lg:px-8 justify-center">
-          <h2 className="text-4xl font-heading font-bold text-purple mb-16 text-center">
+          <h2 className="text-4xl font-heading font-bold text-white mb-16 text-center">
             Applications are Open for the Winter 2026 Consultant-In-Training
             Cohort!
           </h2>
 
           <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-6">
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col items-center text-white">
               {"TO DO: Add Google Form embed here."}
             </div>
           </div>
         </div>
       </section>
       {/* Hero Section */}
-      <section className="bg-linear-to-br from-purple to-light-purple py-24">
+      <section className="bg-white py-24">
         <div className="max-w-7xl mx-auto px-6 lg:px-8 text-center">
-          <h1 className="text-5xl md:text-6xl font-heading font-bold text-white mb-6">
+          <h1 className="text-5xl md:text-6xl font-heading font-bold text-purple mb-6">
             What&apos;s it like to join BCA?
           </h1>
-          <p className="text-xl text-white/90 max-w-5xl mx-auto">
+          <p className="text-xl text-purple/80 max-w-5xl mx-auto">
             After completing the CiT program, members become on BCA&apos;s Case
             Teams and join real client-facing teams led by Engagement Managers
             and the External Team. Case Teams conduct research, analyze business
