@@ -10,7 +10,7 @@ export default function AboutPage() {
         title: "Managing Director",
         imageUrl: "/headshots/officers/Ashley.jpg",
         blurb:
-          "Ashley co-leads the Executive, Internal, and Marketing teams, overseeing operations and client engagements to strengthen BCA’s campus presence and ensure alignment with organizational goals.",
+          "Ashley co-leads the External, Internal, and Marketing teams, overseeing operations and client engagements to strengthen BCA’s campus presence and ensure alignment with organizational goals.",
         linkedinUrl: "https://www.linkedin.com/in/ashleytsang29/",
       },
       {
@@ -18,7 +18,7 @@ export default function AboutPage() {
         title: "Managing Director",
         imageUrl: "/headshots/officers/Miyuki.jpg",
         blurb:
-          "Miyuki co-leads the Executive, Internal, and Marketing teams, overseeing operations and client engagements to strengthen BCA’s campus presence and ensure alignment with organizational goals.",
+          "Miyuki co-leads the External, Internal, and Marketing teams, overseeing operations and client engagements to strengthen BCA’s campus presence and ensure alignment with organizational goals.",
         linkedinUrl: "https://www.linkedin.com/in/miyukis1/",
       },
     ],
