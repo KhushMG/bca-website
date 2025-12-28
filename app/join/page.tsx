@@ -36,7 +36,7 @@ export default function JoinPage() {
       </section>
 
       {/* Requirements */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-gray-50">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <h2 className="text-4xl font-heading font-bold text-purple mb-8 text-center">
             What We&apos;re Looking For
