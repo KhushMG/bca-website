@@ -1,6 +1,20 @@
 export default function JoinPage() {
   return (
     <div className="pt-24">
+      <section className="py-24 bg-gray-50 m">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8 justify-center">
+          <h2 className="text-4xl font-heading font-bold text-purple mb-16 text-center">
+            Applications are Open for the Winter 2026 Consultant-In-Training
+            Cohort!
+          </h2>
+
+          <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-6">
+            <div className="flex flex-col items-center">
+              {"TO DO: Add Google Form embed here."}
+            </div>
+          </div>
+        </div>
+      </section>
       {/* Hero Section */}
       <section className="bg-linear-to-br from-purple to-light-purple py-24">
         <div className="max-w-7xl mx-auto px-6 lg:px-8 text-center">
@@ -219,19 +233,6 @@ export default function JoinPage() {
                   Welcome to BCA!
                 </span>
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="py-24 bg-gray-50 m">
-        <div className="max-w-4xl mx-auto px-6 lg:px-8 justify-center">
-          <h2 className="text-4xl font-heading font-bold text-purple mb-16 text-center">
-            Applications are Open for the Winter 2026 Consultant-In-Training Cohort!
-          </h2>
-
-          <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-6">
-            <div className="flex flex-col items-center">
-              {"TO DO: Add Google Form embed here."}
             </div>
           </div>
         </div>
