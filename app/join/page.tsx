@@ -8,7 +8,11 @@ export default function JoinPage() {
             What&apos;s it like to join BCA?
           </h1>
           <p className="text-xl text-white/90 max-w-5xl mx-auto">
-            After completing the CiT program, members become on BCA&apos;s Case Teams and join real client-facing teams led by Engagement Managers and the External Team. Case Teams conduct research, analyze business problems, and deliver strategic recommendations tailored to the specific needs of each client.
+            After completing the CiT program, members become on BCA&apos;s Case
+            Teams and join real client-facing teams led by Engagement Managers
+            and the External Team. Case Teams conduct research, analyze business
+            problems, and deliver strategic recommendations tailored to the
+            specific needs of each client.
             <br />
             <br />
             Companies are local to the Greater Seattle area and vary in
@@ -215,6 +219,19 @@ export default function JoinPage() {
                   Welcome to BCA!
                 </span>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="py-24 bg-gray-50 m">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8 justify-center">
+          <h2 className="text-4xl font-heading font-bold text-purple mb-16 text-center">
+            Applications are Open for the Winter 2026 Consultant-In-Training Cohort!
+          </h2>
+
+          <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-6">
+            <div className="flex flex-col items-center">
+              {"TO DO: Add Google Form embed here."}
             </div>
           </div>
         </div>
