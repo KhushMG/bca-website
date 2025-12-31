@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function JoinPage() {
   return (
-    <div className="pt-24">
+    <div className="pt-20">
       <section className="py-24 bg-purple">
         <div className="max-w-4xl mx-auto px-6 lg:px-8 justify-center">
           <h2 className="text-4xl font-heading font-bold text-white mb-16 text-center">
@@ -47,12 +47,12 @@ export default function JoinPage() {
 
       {/* Requirements */}
       <section className="py-20 bg-gray-50">
-        <div className="max-w-6xl mx-auto px-6 lg:px-8">
+        <div className="max-w-5xl mx-auto px-6 lg:px-12">
           <h2 className="text-4xl font-heading font-bold text-purple mb-8 text-center">
-            What We&apos;re Looking For
+            What are we looking for in CiT Applicants? 
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="flex items-center gap-4 bg-purple/5 p-10 rounded-3xl h-32">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-12">
+            <div className="flex items-center gap-4 bg-purple/5 p-10 rounded-3xl h-40">
               <div className="w-8 h-8 bg-purple rounded-full flex items-center justify-center shrink-0">
                 <svg
                   className="w-5 h-5 text-white"
@@ -71,8 +71,7 @@ export default function JoinPage() {
                   Analytical Thinking
                 </h3>
                 <p className="text-gray-600 text-base">
-                  Ability to break down complex problems and develop structured
-                  solutions
+                  We want to see how you break down problems and develop structured solutions.
                 </p>
               </div>
             </div>
@@ -96,7 +95,7 @@ export default function JoinPage() {
                   Communication Skills
                 </h3>
                 <p className="text-gray-600 text-base">
-                  Clear articulation of ideas and ability to present confidently
+                We want to see how you communicate your ideas and present your work confidently.
                 </p>
               </div>
             </div>
@@ -120,7 +119,7 @@ export default function JoinPage() {
                   Team Collaboration
                 </h3>
                 <p className="text-gray-600 text-base">
-                  Work effectively with diverse teams toward common goals
+                  We want to see how you work effectively with diverse teams toward common goals.
                 </p>
               </div>
             </div>
@@ -144,7 +143,7 @@ export default function JoinPage() {
                   Passion for Consulting
                 </h3>
                 <p className="text-gray-600 text-base">
-                  Genuine interest in business strategy and problem-solving
+                  We want to see your genuine interest in consulting and problem-solving.
                 </p>
               </div>
             </div>
@@ -153,24 +152,24 @@ export default function JoinPage() {
       </section>
 
       <section className="py-24 bg-gray-50 m">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8 justify-center">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8 justify-center">
           <h2 className="text-4xl font-heading font-bold text-purple mb-16 text-center">
             Consultant-In-Training Application Process
           </h2>
 
-          <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-6">
+          <div className="flex flex-col md:flex-row items-center justify-center gap-3 md:gap-4">
             <div className="flex flex-col items-center">
-              <div className="w-64 h-32 bg-purple rounded-3xl relative flex items-center justify-center shadow-xl shadow-purple/20">
-                <span className="text-xl font-heading font-bold text-white text-center">
+              <div className="w-48 h-24 bg-purple rounded-2xl relative flex items-center justify-center shadow-lg shadow-purple/20">
+                <span className="text-lg font-heading font-bold text-white text-center">
                   Application
                 </span>
               </div>
             </div>
 
             {/* Arrow */}
-            <div className="flex items-center md:h-32">
+            <div className="flex items-center md:h-24">
               <svg
-                className="w-8 h-8 md:w-16 md:h-8 text-gold rotate-90 md:rotate-0"
+                className="w-6 h-6 md:w-10 md:h-6 text-gold rotate-90 md:rotate-0"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 48 24"
@@ -185,8 +184,8 @@ export default function JoinPage() {
             </div>
 
             <div className="flex flex-col items-center">
-              <div className="w-64 h-32 bg-purple rounded-3xl relative flex items-center justify-center shadow-xl shadow-purple/20">
-                <span className="text-xl font-heading font-bold text-white text-center">
+              <div className="w-48 h-24 bg-purple rounded-2xl relative flex items-center justify-center shadow-lg shadow-purple/20">
+                <span className="text-lg font-heading font-bold text-white text-center">
                   Interview <br />
                   <span className="text-sm text-white/95 text-center mt-1">
                     (Behavioral + Case)
@@ -196,9 +195,9 @@ export default function JoinPage() {
             </div>
 
             {/* Arrow */}
-            <div className="flex items-center md:h-32">
+            <div className="flex items-center md:h-24">
               <svg
-                className="w-8 h-8 md:w-16 md:h-8 text-gold rotate-90 md:rotate-0"
+                className="w-6 h-6 md:w-10 md:h-6 text-gold rotate-90 md:rotate-0"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 48 24"
@@ -213,17 +212,17 @@ export default function JoinPage() {
             </div>
 
             <div className="flex flex-col items-center">
-              <div className="w-64 h-32 bg-purple rounded-3xl relative flex items-center justify-center shadow-xl shadow-purple/20 px-3">
-                <span className="text-xl font-heading font-bold text-white text-center leading-tight">
+              <div className="w-48 h-24 bg-purple rounded-2xl relative flex items-center justify-center shadow-lg shadow-purple/20 px-2">
+                <span className="text-lg font-heading font-bold text-white text-center leading-tight">
                   Final Decision
                 </span>
               </div>
             </div>
 
             {/* Arrow */}
-            <div className="flex items-center md:h-32">
+            <div className="flex items-center md:h-24">
               <svg
-                className="w-8 h-8 md:w-16 md:h-8 text-gold rotate-90 md:rotate-0"
+                className="w-6 h-6 md:w-10 md:h-6 text-gold rotate-90 md:rotate-0"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 48 24"
@@ -238,8 +237,8 @@ export default function JoinPage() {
             </div>
 
             <div className="flex flex-col items-center">
-              <div className="w-64 h-32 bg-gold rounded-3xl relative flex items-center justify-center shadow-xl shadow-purple/20 px-3">
-                <span className="text-xl font-heading font-bold text-purple text-center leading-tight">
+              <div className="w-48 h-24 bg-gold rounded-2xl relative flex items-center justify-center shadow-lg shadow-purple/20 px-2">
+                <span className="text-lg font-heading font-bold text-purple text-center leading-tight">
                   Welcome to BCA!
                 </span>
               </div>
