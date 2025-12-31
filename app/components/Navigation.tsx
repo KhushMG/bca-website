@@ -14,7 +14,7 @@ export default function Navigation() {
     { href: "/about", label: "About Us" },
     { href: "/members", label: "Members" },
     { href: "/join", label: "Join BCA" },
-    // { href: "/contact", label: "Contact" },
+    { href: "/contact", label: "Contact Us" },
     // { href: "/alumni", label: "Alumni" },
   ];
 

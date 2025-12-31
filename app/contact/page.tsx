@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function ContactPage() {
   return (
     <div className="pt-24">
@@ -15,7 +17,7 @@ export default function ContactPage() {
 
       {/* Our Services Section */}
       <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+        <div className="max-w-5xl mx-auto px-6 lg:px-8">
           <h2 className="text-4xl font-heading font-bold text-purple mb-4 text-center">
             Our Services
           </h2>
@@ -24,7 +26,7 @@ export default function ContactPage() {
             and startups in the Pacific Northwest
           </p>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
             {/* Service 1 */}
             <div className="bg-linear-to-br from-purple/5 to-light-purple/5 rounded-2xl p-8 border border-purple/20">
               <div className="w-14 h-14 bg-purple rounded-xl flex items-center justify-center mb-6">
@@ -66,7 +68,7 @@ export default function ContactPage() {
                 </li>
                 <li className="flex items-start gap-2 text-sm text-gray-600">
                   <svg
-                    className="w-5 h-5 text-gold mt-0.5 flex-shrink-0"
+                    className="w-5 h-5 text-gold mt-0.5 shrink-0"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                   >
@@ -80,7 +82,7 @@ export default function ContactPage() {
                 </li>
                 <li className="flex items-start gap-2 text-sm text-gray-600">
                   <svg
-                    className="w-5 h-5 text-gold mt-0.5 flex-shrink-0"
+                    className="w-5 h-5 text-gold mt-0.5 shrink-0"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                   >
@@ -122,7 +124,7 @@ export default function ContactPage() {
               <ul className="space-y-2">
                 <li className="flex items-start gap-2 text-sm text-gray-600">
                   <svg
-                    className="w-5 h-5 text-gold mt-0.5 flex-shrink-0"
+                    className="w-5 h-5 text-gold mt-0.5 shrink-0"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                   >
@@ -136,7 +138,7 @@ export default function ContactPage() {
                 </li>
                 <li className="flex items-start gap-2 text-sm text-gray-600">
                   <svg
-                    className="w-5 h-5 text-gold mt-0.5 flex-shrink-0"
+                    className="w-5 h-5 text-gold mt-0.5 shrink-0"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                   >
@@ -150,7 +152,7 @@ export default function ContactPage() {
                 </li>
                 <li className="flex items-start gap-2 text-sm text-gray-600">
                   <svg
-                    className="w-5 h-5 text-gold mt-0.5 flex-shrink-0"
+                    className="w-5 h-5 text-gold mt-0.5 shrink-0"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                   >
@@ -192,7 +194,7 @@ export default function ContactPage() {
               <ul className="space-y-2">
                 <li className="flex items-start gap-2 text-sm text-gray-600">
                   <svg
-                    className="w-5 h-5 text-gold mt-0.5 flex-shrink-0"
+                    className="w-5 h-5 text-gold mt-0.5 shrink-0"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                   >
@@ -206,7 +208,7 @@ export default function ContactPage() {
                 </li>
                 <li className="flex items-start gap-2 text-sm text-gray-600">
                   <svg
-                    className="w-5 h-5 text-gold mt-0.5 flex-shrink-0"
+                    className="w-5 h-5 text-gold mt-0.5 shrink-0"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                   >
@@ -220,7 +222,7 @@ export default function ContactPage() {
                 </li>
                 <li className="flex items-start gap-2 text-sm text-gray-600">
                   <svg
-                    className="w-5 h-5 text-gold mt-0.5 flex-shrink-0"
+                    className="w-5 h-5 text-gold mt-0.5 shrink-0"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                   >
@@ -235,7 +237,7 @@ export default function ContactPage() {
               </ul>
             </div>
 
-            {/* Service 4 */}
+            {/* Service 4
             <div className="bg-gradient-to-br from-purple/5 to-light-purple/5 rounded-2xl p-8 border border-purple/20">
               <div className="w-14 h-14 bg-purple rounded-xl flex items-center justify-center mb-6">
                 <svg
@@ -262,7 +264,7 @@ export default function ContactPage() {
               <ul className="space-y-2">
                 <li className="flex items-start gap-2 text-sm text-gray-600">
                   <svg
-                    className="w-5 h-5 text-gold mt-0.5 flex-shrink-0"
+                    className="w-5 h-5 text-gold mt-0.5 shrink-0"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                   >
@@ -276,7 +278,7 @@ export default function ContactPage() {
                 </li>
                 <li className="flex items-start gap-2 text-sm text-gray-600">
                   <svg
-                    className="w-5 h-5 text-gold mt-0.5 flex-shrink-0"
+                    className="w-5 h-5 text-gold mt-0.5 shrink-0"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                   >
@@ -290,7 +292,7 @@ export default function ContactPage() {
                 </li>
                 <li className="flex items-start gap-2 text-sm text-gray-600">
                   <svg
-                    className="w-5 h-5 text-gold mt-0.5 flex-shrink-0"
+                    className="w-5 h-5 text-gold mt-0.5 shrink-0"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                   >
@@ -303,7 +305,7 @@ export default function ContactPage() {
                   Data visualization
                 </li>
               </ul>
-            </div>
+            </div> */}
 
             {/* Service 5 */}
             <div className="bg-gradient-to-br from-purple/5 to-light-purple/5 rounded-2xl p-8 border border-purple/20">
@@ -338,7 +340,7 @@ export default function ContactPage() {
               <ul className="space-y-2">
                 <li className="flex items-start gap-2 text-sm text-gray-600">
                   <svg
-                    className="w-5 h-5 text-gold mt-0.5 flex-shrink-0"
+                    className="w-5 h-5 text-gold mt-0.5 shrink-0"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                   >
@@ -352,7 +354,7 @@ export default function ContactPage() {
                 </li>
                 <li className="flex items-start gap-2 text-sm text-gray-600">
                   <svg
-                    className="w-5 h-5 text-gold mt-0.5 flex-shrink-0"
+                    className="w-5 h-5 text-gold mt-0.5 shrink-0"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                   >
@@ -366,7 +368,7 @@ export default function ContactPage() {
                 </li>
                 <li className="flex items-start gap-2 text-sm text-gray-600">
                   <svg
-                    className="w-5 h-5 text-gold mt-0.5 flex-shrink-0"
+                    className="w-5 h-5 text-gold mt-0.5 shrink-0"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                   >
@@ -377,76 +379,6 @@ export default function ContactPage() {
                     />
                   </svg>
                   Budget planning
-                </li>
-              </ul>
-            </div>
-
-            {/* Service 6 */}
-            <div className="bg-gradient-to-br from-purple/5 to-light-purple/5 rounded-2xl p-8 border border-purple/20">
-              <div className="w-14 h-14 bg-purple rounded-xl flex items-center justify-center mb-6">
-                <svg
-                  className="w-7 h-7 text-white"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
-                  />
-                </svg>
-              </div>
-              <h3 className="text-2xl font-heading font-bold text-purple mb-3">
-                Organizational Development
-              </h3>
-              <p className="text-gray-700 leading-relaxed mb-4">
-                Organizational design, change management, and talent strategy
-                consulting.
-              </p>
-              <ul className="space-y-2">
-                <li className="flex items-start gap-2 text-sm text-gray-600">
-                  <svg
-                    className="w-5 h-5 text-gold mt-0.5 flex-shrink-0"
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
-                  Org structure design
-                </li>
-                <li className="flex items-start gap-2 text-sm text-gray-600">
-                  <svg
-                    className="w-5 h-5 text-gold mt-0.5 flex-shrink-0"
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
-                  Change management
-                </li>
-                <li className="flex items-start gap-2 text-sm text-gray-600">
-                  <svg
-                    className="w-5 h-5 text-gold mt-0.5 flex-shrink-0"
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
-                  Culture transformation
                 </li>
               </ul>
             </div>
@@ -467,64 +399,47 @@ export default function ContactPage() {
             </p>
           </div>
 
-          {/* Google Form Placeholder */}
-          <div className="bg-white rounded-2xl shadow-lg p-12">
-            <div className="flex flex-col items-center justify-center min-h-[400px] border-2 border-dashed border-gray-300 rounded-xl">
-              <svg
-                className="w-16 h-16 text-purple mb-4"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
-                />
-              </svg>
-              <h3 className="text-xl font-heading font-semibold text-gray-700 mb-2">
-                Google Form Placeholder
-              </h3>
-              <p className="text-gray-500 text-center max-w-md">
-                Replace this section with your embedded Google Form URL.
-                <br />
-                <span className="text-sm mt-2 block">
-                  Use an iframe or direct link to your Google Form.
+          <div className="flex flex-col items-center justify-center  rounded-2xl  p-4">
+            <Link
+              href="https://docs.google.com/forms/d/e/1FAIpQLSd0rYNtuYJE5Zr9DI4NtNj9xTm0B8laGIZVOpR6VWfEgzDaQg/viewform"
+              target="_blank"
+            >
+              <button className="px-10 py-5 bg-gold text-purple/90 font-semibold rounded-lg hover:bg-gold/90 transition-all shadow-md hover:shadow-md hover:cursor-pointer hover:scale-105">
+                <span className="text-xl font-heading font-bold">
+                  Partnership Form
                 </span>
-              </p>
-              <div className="mt-6 bg-purple/5 px-6 py-3 rounded-lg">
-                <code className="text-sm text-purple font-mono">
-                  &lt;iframe src=&quot;YOUR_GOOGLE_FORM_URL&quot; /&gt;
-                </code>
-              </div>
-            </div>
+              </button>
+            </Link>
           </div>
 
           {/* Additional Contact Info */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
             <div className="text-center">
               <div className="w-12 h-12 bg-purple rounded-full flex items-center justify-center mx-auto mb-3">
-                <svg
-                  className="w-6 h-6 text-white"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
+                <a
+                  href="mailto:bothellconsultingassociation@gmail.com"
+                  className="text-white hover:text-gold transition-colors text-sm"
                 >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-                  />
-                </svg>
+                  <svg
+                    className="w-6 h-6 text-white"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                    />
+                  </svg>
+                </a>
               </div>
+              <h4 className="font-heading font-semibold text-purple mb-1"></h4>
               <h4 className="font-heading font-semibold text-purple mb-1">
                 Email
               </h4>
-              <p className="text-gray-600 text-sm">
-                contact@bothellconsulting.org
-              </p>
+              <p className="text-gray-600 text-sm">Contact us directly</p>
             </div>
 
             <div className="text-center">
@@ -561,18 +476,23 @@ export default function ContactPage() {
 
             <div className="text-center">
               <div className="w-12 h-12 bg-purple rounded-full flex items-center justify-center mx-auto mb-3">
-                <svg
-                  className="w-6 h-6 text-white"
-                  fill="currentColor"
-                  viewBox="0 0 24 24"
+                <a
+                  href="https://www.linkedin.com/company/bothell-consulting-association/"
+                  className="text-white hover:text-gold transition-colors text-sm"
                 >
-                  <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
-                </svg>
+                  <svg
+                    className="w-6 h-6 text-white"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                  </svg>
+                </a>
               </div>
               <h4 className="font-heading font-semibold text-purple mb-1">
                 LinkedIn
               </h4>
-              <p className="text-gray-600 text-sm">Connect with us</p>
+              <p className="text-gray-600 text-sm">Connect with us!</p>
             </div>
           </div>
         </div>
@@ -580,4 +500,3 @@ export default function ContactPage() {
     </div>
   );
 }
-
