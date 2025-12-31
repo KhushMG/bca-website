@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function JoinPage() {
   return (
     <div className="pt-24">
@@ -10,7 +12,15 @@ export default function JoinPage() {
 
           <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-6">
             <div className="flex flex-col items-center text-white">
-              {"TO DO: Add Google Form embed here."}
+              <Link 
+              href="https://docs.google.com/forms/d/e/1FAIpQLSev6fh5kxjZ0crLx0PRwBsXOWgMFztg9PIZGL1Vgf8OFkq0_A/viewform?fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGntX5WGP5km9qN0BZ5kJOAg29KXAevXbBTXLc4olbWrCAxMj0joo_r-RamXB8_aem_hcafdU5L_koYQxAwe0RWAw"
+              target="_blank">
+                <button className="px-10 py-5 bg-gold text-purple/90 font-semibold rounded-lg hover:bg-gold/90 transition-all shadow-md hover:shadow-md hover:cursor-pointer hover:scale-105">
+                  <span className="text-xl font-heading font-bold">
+                    Apply Now!
+                  </span>
+                </button>
+              </Link>
             </div>
           </div>
         </div>
