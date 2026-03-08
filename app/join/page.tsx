@@ -5,10 +5,10 @@ export default function JoinPage() {
     <div className="pt-20">
       <section className="py-24 bg-purple">
         <div className="max-w-4xl mx-auto px-6 lg:px-8 justify-center">
-          <h2 className="text-4xl font-heading font-bold text-white mb-8 text-center">
+          <h2 className="text-4xl font-heading font-bold text-white text-center">
             Applications are now closed for the Winter 2026
-            Consultant-In-Training Cohort. Watch for the opening of our Fall
-            2026 Consultant-In-Training Cohort. 
+            Consultant-In-Training Cohort. <br /> <br /> Watch for the opening
+            of our Fall 2026 Consultant-In-Training Cohort Applications!
           </h2>
           {/* <h3 className="text-xl font-heading font-semibold text-gold mb-8 text-center">
           Applications are open until <strong> January 18, 2026 11:59 PM PST!</strong>
