@@ -6,14 +6,15 @@ export default function JoinPage() {
       <section className="py-24 bg-purple">
         <div className="max-w-4xl mx-auto px-6 lg:px-8 justify-center">
           <h2 className="text-4xl font-heading font-bold text-white mb-8 text-center">
-            Applications are Open for the Winter 2026 Consultant-In-Training
-            Cohort!
+            Applications are now closed for the Winter 2026
+            Consultant-In-Training Cohort. Watch for the opening of our Fall
+            2026 Consultant-In-Training Cohort. 
           </h2>
-          <h3 className="text-xl font-heading font-semibold text-gold mb-8 text-center">
+          {/* <h3 className="text-xl font-heading font-semibold text-gold mb-8 text-center">
           Applications are open until <strong> January 18, 2026 11:59 PM PST!</strong>
-          </h3>
+          </h3> */}
 
-          <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-6">
+          {/* <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-6">
             <div className="flex flex-col items-center text-white">
               <Link 
               href="https://docs.google.com/forms/d/e/1FAIpQLSev6fh5kxjZ0crLx0PRwBsXOWgMFztg9PIZGL1Vgf8OFkq0_A/viewform?fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGntX5WGP5km9qN0BZ5kJOAg29KXAevXbBTXLc4olbWrCAxMj0joo_r-RamXB8_aem_hcafdU5L_koYQxAwe0RWAw"
@@ -25,7 +26,7 @@ export default function JoinPage() {
                 </button>
               </Link>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
       {/* Hero Section */}
@@ -52,7 +53,7 @@ export default function JoinPage() {
       <section className="py-20 bg-gray-50">
         <div className="max-w-5xl mx-auto px-6 lg:px-12">
           <h2 className="text-4xl font-heading font-bold text-purple mb-8 text-center">
-            What are we looking for in CiT Applicants? 
+            What are we looking for in CiT Applicants?
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-12">
             <div className="flex items-center gap-4 bg-purple/5 p-10 rounded-3xl h-40">
@@ -74,7 +75,8 @@ export default function JoinPage() {
                   Analytical Thinking
                 </h3>
                 <p className="text-gray-600 text-base">
-                  We want to see how you break down problems and develop structured solutions.
+                  We want to see how you break down problems and develop
+                  structured solutions.
                 </p>
               </div>
             </div>
@@ -98,7 +100,8 @@ export default function JoinPage() {
                   Communication Skills
                 </h3>
                 <p className="text-gray-600 text-base">
-                We want to see how you communicate your ideas and present your work confidently.
+                  We want to see how you communicate your ideas and present your
+                  work confidently.
                 </p>
               </div>
             </div>
@@ -122,7 +125,8 @@ export default function JoinPage() {
                   Team Collaboration
                 </h3>
                 <p className="text-gray-600 text-base">
-                  We want to see how you work effectively with diverse teams toward common goals.
+                  We want to see how you work effectively with diverse teams
+                  toward common goals.
                 </p>
               </div>
             </div>
@@ -146,7 +150,8 @@ export default function JoinPage() {
                   Passion for Consulting
                 </h3>
                 <p className="text-gray-600 text-base">
-                  We want to see your genuine interest in consulting and problem-solving.
+                  We want to see your genuine interest in consulting and
+                  problem-solving.
                 </p>
               </div>
             </div>
